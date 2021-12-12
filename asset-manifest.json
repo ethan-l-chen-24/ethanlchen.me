@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ethanlchen.me/static/css/main.a617e044.chunk.css",
+    "main.js": "/ethanlchen.me/static/js/main.8b44b025.chunk.js",
+    "main.js.map": "/ethanlchen.me/static/js/main.8b44b025.chunk.js.map",
+    "runtime-main.js": "/ethanlchen.me/static/js/runtime-main.11df78d8.js",
+    "runtime-main.js.map": "/ethanlchen.me/static/js/runtime-main.11df78d8.js.map",
+    "static/js/2.1018008c.chunk.js": "/ethanlchen.me/static/js/2.1018008c.chunk.js",
+    "static/js/2.1018008c.chunk.js.map": "/ethanlchen.me/static/js/2.1018008c.chunk.js.map",
+    "static/js/3.439a0529.chunk.js": "/ethanlchen.me/static/js/3.439a0529.chunk.js",
+    "static/js/3.439a0529.chunk.js.map": "/ethanlchen.me/static/js/3.439a0529.chunk.js.map",
+    "index.html": "/ethanlchen.me/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/ethanlchen.me/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.1018008c.chunk.js.LICENSE.txt": "/ethanlchen.me/static/js/2.1018008c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ethanlchen.me/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11df78d8.js",
+    "static/js/2.1018008c.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.8b44b025.chunk.js"
+  ]
+}
