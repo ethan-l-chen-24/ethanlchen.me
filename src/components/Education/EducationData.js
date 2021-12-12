@@ -51,4 +51,4 @@ const EducationData = [
     }
 ]
 
-export default EducationData;
+export default EducationData

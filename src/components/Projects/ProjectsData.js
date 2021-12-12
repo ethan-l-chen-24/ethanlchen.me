@@ -46,4 +46,4 @@ const ProjectsData = [
 
 ]
 
-export default ProjectsData;
+export default ProjectsData

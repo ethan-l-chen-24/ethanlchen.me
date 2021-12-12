@@ -29,4 +29,4 @@ const LanguagesData = [
     }
 ]
 
-export default LanguagesData;
+export default LanguagesData

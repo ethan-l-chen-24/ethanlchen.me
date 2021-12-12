@@ -22,4 +22,4 @@ const SliceOfLifeData = [
     }
 ]
 
-export default SliceOfLifeData;
+export default SliceOfLifeData
