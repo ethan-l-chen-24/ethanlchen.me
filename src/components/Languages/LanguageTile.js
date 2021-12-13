@@ -1,11 +1,12 @@
 import React from 'react'
 
-const LanguagesTile = () => {
+const LanguageTile = ( { name, logo } ) => {
     return (
         <div>
-            
+            <div>{ name }</div>
+            <div>{ logo }</div>
         </div>
     )
 }
 
-export default LanguagesTile
+export default LanguageTile
