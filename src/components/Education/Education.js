@@ -4,13 +4,13 @@ import EducationData from './EducationData'
 
 const Education = () => {
     return (
-        <>
+        <div>
             Education
             { EducationData.map((school) => 
-            (<SchoolTile />)
+            (<SchoolTile school={school.school} logo={school.logo} location={school.location} years={school.years} degree={school.degree} activites={school.activities} />)
             )}
 
-        </>
+        </div>
     )
 }
 

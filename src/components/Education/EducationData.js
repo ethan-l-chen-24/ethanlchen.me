@@ -25,10 +25,10 @@ const EducationData = [
         ]
     },
     {
-        school: 'Dartmouth College',
-        logo: 'dartLogo',
-        location: 'Hanover, NH',
-        years: 'Sep 2020 - June 2024',
+        school: 'Deerfield Academy',
+        logo: 'deerfLogo',
+        location: 'Deerfield, MA',
+        years: 'Sep 2016 - June 2020',
         degree: 'Robert Crowe Award Winner',
         activities: [
             {
