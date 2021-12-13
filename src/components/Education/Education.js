@@ -1,10 +1,16 @@
 import React from 'react'
+import SchoolTile from './SchoolTile'
+import EducationData from './EducationData'
 
 const Education = () => {
     return (
-        <div>
+        <>
             Education
-        </div>
+            { EducationData.map((school) => 
+            (<SchoolTile />)
+            )}
+
+        </>
     )
 }
 
