@@ -1,18 +1,18 @@
 import React from 'react'
-import { AiFillLinkedin, AiOutlineGithub, AiOutlineInstagram } from 'react-icons/ai'
-import { DiReact } from 'react-icons/di'
+import { AiOutlineMail, AiFillLinkedin, AiOutlineGithub, AiOutlineInstagram } from 'react-icons/ai'
+import { IconContext } from 'react-icons'
 
 const ContactTile = ( { name, link } ) => {
 
     const getIcon = () => {
         if(name === 'Email') {
-            return (<DiReact size="4x"/>)
+            return (<AiOutlineMail />)
         } else if(name === 'LinkedIn') {
-            return (<AiFillLinkedin size="4x" />)
+            return (<AiFillLinkedin />)
         } else if(name === 'Github') {
-            return (<AiOutlineGithub size="4x" />)
+            return (<AiOutlineGithub />)
         } else if(name === 'Instagram') {
-            return (<AiOutlineInstagram size="4x" />)
+            return (<AiOutlineInstagram />)
         } 
     }
 
@@ -22,7 +22,9 @@ const ContactTile = ( { name, link } ) => {
         rel="noopener noreferrer" 
         aria-label={name}
         key={name}> 
-            {getIcon()}
+            <IconContext.Provider value={{ color: 'black', size: '4em'}}>
+                {getIcon()}
+            </IconContext.Provider>
         </a>
     )
 }
