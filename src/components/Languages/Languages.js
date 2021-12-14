@@ -5,7 +5,7 @@ import LanguageTile from './LanguageTile'
 const Languages = () => {
     return (
         <div>
-            Languages
+            <h1>Languages</h1>
             { LanguagesData.map((language) =>
             (<LanguageTile name={language.name} logo={language.logo} />)
             )}

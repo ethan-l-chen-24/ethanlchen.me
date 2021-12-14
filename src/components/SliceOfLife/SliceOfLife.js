@@ -5,7 +5,7 @@ import SliceOfLifeTile from './SliceOfLifeTile'
 const SliceOfLife = () => {
     return (
         <div>
-            Slice of Life
+            <h1>Slice Of Life</h1>
             {SliceOfLifeData.map((activity) => 
             (<SliceOfLifeTile type={activity.type} description={activity.description} images={activity.images}/>)
             )}

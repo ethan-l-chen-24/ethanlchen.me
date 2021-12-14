@@ -5,7 +5,7 @@ import ContactTile from './ContactTile'
 const Contact = () => {
     return (
         <div>
-            Contact Me
+            <h1>Contact Me</h1>
             { ContactData.map((contact) => 
             (<ContactTile name={contact.name} link={contact.link} icon={contact.icon}/>)
             )}
