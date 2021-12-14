@@ -10,11 +10,6 @@ function App() {
   return (
     <div className="App">
       
-      <AboutMe />
-      <Education />
-      <Languages />
-      <Projects />
-      <SliceOfLife />
       <Contact />
 
 

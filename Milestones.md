@@ -2,9 +2,9 @@
 Create React Project
 Set up Components
 Add data to each component
+Design full website
 
 `To Do`
-Design full website
 Create Navbar
 Style about me
 Style Contact
