@@ -1,0 +1,36 @@
+section#contactMe {
+    background-color: #434242;
+    color: #1173a8
+}
+
+.dot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot > .icon {
+    position: relative;
+
+}
+
+#Email {
+    background-color: #f1ffc4;
+}
+
+#LinkedIn {
+    background-color: #f1ffc4;
+}
+
+#Github {
+    background-color: #f1ffc4;
+}
+
+#Instagram {
+    background-color: #f1ffc4;
+}

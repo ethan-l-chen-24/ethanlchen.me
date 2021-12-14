@@ -17,15 +17,18 @@ const ContactTile = ( { name, link } ) => {
     }
 
     return (
-        <a href={link} 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        aria-label={name}
-        key={name}> 
-            <IconContext.Provider value={{ color: 'black', size: '4em'}}>
-                {getIcon()}
-            </IconContext.Provider>
-        </a>
+        <div className="dot" id={name}>
+            <a className = "icon" 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            aria-label={name}
+            key={name}> 
+                <IconContext.Provider value={{ color: "#1173a8", size: '5em'}}>
+                    {getIcon()}
+                </IconContext.Provider>
+            </a>
+        </div>
     )
 }
 

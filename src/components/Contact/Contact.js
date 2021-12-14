@@ -5,7 +5,7 @@ import { Container, Col, Row } from 'react-bootstrap'
 
 const Contact = () => {
     return (
-        <div>
+        <section id="contactMe">
             <h1>Contact Me</h1>
             <Container>
                 <Row>
@@ -19,7 +19,7 @@ const Contact = () => {
                 </Row>      
             </Container>
             
-        </div>
+        </section>
     )
 }
 
