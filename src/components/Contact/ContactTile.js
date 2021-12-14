@@ -6,13 +6,13 @@ const ContactTile = ( { name, link } ) => {
 
     const getIcon = () => {
         if(name === 'Email') {
-            return (<DiReact />)
+            return (<DiReact size="4x"/>)
         } else if(name === 'LinkedIn') {
-            return (<AiFillLinkedin />)
+            return (<AiFillLinkedin size="4x" />)
         } else if(name === 'Github') {
-            return (<AiOutlineGithub />)
+            return (<AiOutlineGithub size="4x" />)
         } else if(name === 'Instagram') {
-            return (<AiOutlineInstagram />)
+            return (<AiOutlineInstagram size="4x" />)
         } 
     }
 
