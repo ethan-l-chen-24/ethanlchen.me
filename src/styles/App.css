@@ -11,7 +11,6 @@ hr {
     width: 80%;
     height: 2px;
     margin: 30px auto 30px auto;
-    color: white;
     opacity: 100%
 }
 
@@ -23,9 +22,17 @@ div > h1 {
 .center {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .quote {
     text-align: center;
     margin: auto 10px 10px 15px;
+}
+
+.boxed {
+    background-color: white;
+    padding: 5px;
+    border: black 1px solid;
 }

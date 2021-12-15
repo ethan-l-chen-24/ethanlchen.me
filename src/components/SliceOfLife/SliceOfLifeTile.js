@@ -4,12 +4,12 @@ import { Col, Container, Row } from 'react-bootstrap'
 const SliceOfLifeTile = ( { type, description, images } ) => {
     return (
         <Container>
-            <Row>
-                <Col>
-                    <h2>{ type }</h2>
+            <Row className="activity">
+                <Col xs={12} md={3} className='center'>
+                    <u><h2>{ type }</h2></u>
                 </Col>
-                <Col>
-                    <p>{ description }</p>
+                <Col xs={12} md={9} className='center'>
+                    <p className="boxed">{ description }</p>
                 </Col>
             </Row>
             <Row>
