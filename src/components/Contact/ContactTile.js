@@ -24,7 +24,7 @@ const ContactTile = ( { name, link } ) => {
             rel="noopener noreferrer" 
             aria-label={name}
             key={name}> 
-                <IconContext.Provider value={{ color: "#bebebe", size: '5em'}}>
+                <IconContext.Provider value={{ color: "#434242", size: '5em'}}>
                     {getIcon()}
                 </IconContext.Provider>
             </a>

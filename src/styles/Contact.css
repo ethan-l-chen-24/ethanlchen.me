@@ -1,6 +1,6 @@
 section#contactMe {
     background-color: #434242;
-    color: #7f7f7f;
+    color: white;
 }
 
 .dot {
@@ -14,17 +14,17 @@ section#contactMe {
 }
 
 #Email {
-    background-color: #ffff66;
+    background-color: #21aeff;
 }
 
 #LinkedIn {
-    background-color: #3399ff;
+    background-color: #f25555;
 }
 
 #Github {
-    background-color: #ff0033;
+    background-color: #5edb71;
 }
 
 #Instagram {
-    background-color: #66ff00;
+    background-color: #fff34d;
 }

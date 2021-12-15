@@ -1,7 +1,16 @@
 @import "./AboutMe.css";
 @import "./Contact.css";
 
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+
 .center {
     display: flex;
     justify-content: center;
+}
+
+.quote {
+    text-align: center;
 }
