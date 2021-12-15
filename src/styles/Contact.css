@@ -1,12 +1,5 @@
 
 
-section#contactMe {
-    background-color: #434242;
-    padding: 30px;
-    padding-bottom: 100px;
-    color: white;
-}
-
 .dot {
     width: 150px;
     height: 150px;
@@ -34,9 +27,13 @@ section#contactMe {
 }
 
 #contactMeHR {
-    width: 80%;
     height: 2px;
-    margin: 30px auto 30px auto;
     color: white;
-    opacity: 100%
+}
+
+#contactMe {
+    background-color: #434242;
+    padding: 30px;
+    padding-bottom: 100px;
+    color: white;
 }
