@@ -7,7 +7,7 @@ const SliceOfLife = () => {
         <div id="sliceOfLife">
             <h1>Slice Of Life</h1>
             <p className='quote'>
-                <i>"You have to let me dance my own battles."</i>
+                <i>“Look at us, riding around in a limo, eating hot dogs…it’s like we’re the president.”</i>
                 <div>- Marshall Erickson</div>
             </p>
             <hr id="sliceOfLifeHR"/>

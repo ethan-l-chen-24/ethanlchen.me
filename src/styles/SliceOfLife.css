@@ -1,11 +1,14 @@
 #sliceOfLife {
-    background-color: #ffda00;
+    background-image: url("../images/fall.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 100%;
     padding: 30px;
 }
 
 #sliceOfLifeHR {
     height: 2px;
-    color: black;
+    color: white;
 }
 
 .activity {
