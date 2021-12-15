@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/ethanlchen.me/static/css/main.a617e044.chunk.css",
-    "main.js": "/ethanlchen.me/static/js/main.8b44b025.chunk.js",
-    "main.js.map": "/ethanlchen.me/static/js/main.8b44b025.chunk.js.map",
-    "runtime-main.js": "/ethanlchen.me/static/js/runtime-main.11df78d8.js",
-    "runtime-main.js.map": "/ethanlchen.me/static/js/runtime-main.11df78d8.js.map",
-    "static/js/2.1018008c.chunk.js": "/ethanlchen.me/static/js/2.1018008c.chunk.js",
-    "static/js/2.1018008c.chunk.js.map": "/ethanlchen.me/static/js/2.1018008c.chunk.js.map",
-    "static/js/3.439a0529.chunk.js": "/ethanlchen.me/static/js/3.439a0529.chunk.js",
-    "static/js/3.439a0529.chunk.js.map": "/ethanlchen.me/static/js/3.439a0529.chunk.js.map",
+    "main.css": "/ethanlchen.me/static/css/main.d426506b.chunk.css",
+    "main.js": "/ethanlchen.me/static/js/main.8d78ef4b.chunk.js",
+    "main.js.map": "/ethanlchen.me/static/js/main.8d78ef4b.chunk.js.map",
+    "runtime-main.js": "/ethanlchen.me/static/js/runtime-main.b3425485.js",
+    "runtime-main.js.map": "/ethanlchen.me/static/js/runtime-main.b3425485.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/ethanlchen.me/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.4e11a215.chunk.js": "/ethanlchen.me/static/js/2.4e11a215.chunk.js",
+    "static/js/2.4e11a215.chunk.js.map": "/ethanlchen.me/static/js/2.4e11a215.chunk.js.map",
+    "static/js/3.dcc1cadb.chunk.js": "/ethanlchen.me/static/js/3.dcc1cadb.chunk.js",
+    "static/js/3.dcc1cadb.chunk.js.map": "/ethanlchen.me/static/js/3.dcc1cadb.chunk.js.map",
     "index.html": "/ethanlchen.me/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/ethanlchen.me/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.1018008c.chunk.js.LICENSE.txt": "/ethanlchen.me/static/js/2.1018008c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ethanlchen.me/static/media/logo.6ce24c58.svg"
+    "static/css/2.0a9ec390.chunk.css.map": "/ethanlchen.me/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.d426506b.chunk.css.map": "/ethanlchen.me/static/css/main.d426506b.chunk.css.map",
+    "static/js/2.4e11a215.chunk.js.LICENSE.txt": "/ethanlchen.me/static/js/2.4e11a215.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.11df78d8.js",
-    "static/js/2.1018008c.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.8b44b025.chunk.js"
+    "static/js/runtime-main.b3425485.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.4e11a215.chunk.js",
+    "static/css/main.d426506b.chunk.css",
+    "static/js/main.8d78ef4b.chunk.js"
   ]
 }
