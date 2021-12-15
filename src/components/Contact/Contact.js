@@ -8,8 +8,8 @@ const Contact = () => {
         <section id="contactMe">
             <h1>Contact Me</h1>
             <p className='quote'>
-                <i>"When I get sad, I just stop being sad and be awesome instead. True story."</i>
-                <div>- Barney Stinson</div>
+                <i>“I don’t know where I’m gonna be in five years. I don’t wanna know. I want my life to be an adventure.”</i>
+                <div>- Robin Scherbatsky</div>
             </p>
             <hr id="contactMeHR"/>
             <Container>
