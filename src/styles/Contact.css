@@ -1,12 +1,9 @@
 
-hr {
-    width: 80%;
-    margin: 30px auto 30px auto;
-}
 
 section#contactMe {
     background-color: #434242;
-    padding: 20px;
+    padding: 30px;
+    padding-bottom: 100px;
     color: white;
 }
 
@@ -34,4 +31,12 @@ section#contactMe {
 
 #Instagram {
     background-color: #fff34d;
+}
+
+#contactMeHR {
+    width: 80%;
+    height: 2px;
+    margin: 30px auto 30px auto;
+    color: white;
+    opacity: 100%
 }
