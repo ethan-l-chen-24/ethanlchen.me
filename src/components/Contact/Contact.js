@@ -11,6 +11,7 @@ const Contact = () => {
                 <i>"When I get sad, I just stop being sad and be awesome instead. True story"</i>
                 <div>- Barney Stinson</div>
             </p>
+            <hr />
             <Container>
                 <Row>
                     { ContactData.map((contact) => 

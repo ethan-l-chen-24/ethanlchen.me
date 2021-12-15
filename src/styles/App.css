@@ -1,9 +1,9 @@
 @import "./AboutMe.css";
 @import "./Contact.css";
 
-h1 {
+section > h1 {
     text-align: center;
-    margin: 0px;
+    margin-bottom: 15px;
 }
 
 .center {
@@ -13,4 +13,5 @@ h1 {
 
 .quote {
     text-align: center;
+    margin: auto 10px 10px 15px;
 }
