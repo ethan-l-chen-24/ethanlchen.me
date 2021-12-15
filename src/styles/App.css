@@ -33,6 +33,6 @@ div > h1 {
 
 .boxed {
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     border: black 1px solid;
 }

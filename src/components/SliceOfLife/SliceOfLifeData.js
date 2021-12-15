@@ -15,7 +15,7 @@ const SliceOfLifeData = [
     },
     {
         type: 'Roller Coasters',
-        description: 'I am a true enthusiast that gets more excited about roller coasters than anything else in the world (my favorites are X2 at Six Flags Magic Mountain and El Toro at Six Flags Great Adventure)!',
+        description: 'I am an enthusiast that geeks out over roller coasters more than anything else in the world! (X2 and El Toro are the best)',
         images: {
 
         }

@@ -1,5 +1,6 @@
 #sliceOfLife {
     background-color: #ffda00;
+    padding: 30px;
 }
 
 #sliceOfLifeHR {
@@ -9,4 +10,10 @@
 
 .activity {
     margin: 20px;
+}
+
+@media (min-width: 768px) {
+    .left-align {
+        justify-content: left;
+    }
 }
