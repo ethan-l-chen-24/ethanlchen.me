@@ -13,7 +13,12 @@
 }
 
 @media (min-width: 768px) {
-    .left-align {
+    .activity > .left-align {
         justify-content: left;
+        text-align: left;
+    }
+
+    .left-align > .boxed {
+        width: 100%;
     }
 }
