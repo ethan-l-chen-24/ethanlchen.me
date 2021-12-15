@@ -1,19 +1,9 @@
-.fall {
-    background-image: url("../images/fall.jpeg");
-    background-repeat: no-repeat;
-    opacity: 60%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
+
 
 #sliceOfLife {
     color: black;
     opacity: 100%;
-    padding: 30px;
+    padding: 100px 30px;
     position: relative;
 }
 
@@ -24,6 +14,18 @@
 
 .activity {
     margin: 20px;
+}
+
+.fall {
+    background-image: url("../images/fall.jpeg");
+    background-repeat: no-repeat;
+    opacity: 60%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 @media (min-width: 768px) {

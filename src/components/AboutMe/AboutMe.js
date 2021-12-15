@@ -3,11 +3,10 @@ import AboutMeData from './AboutMeData'
 
 const AboutMe = () => {
     return (
-        <>
-            <div className='title'>{AboutMeData.name}</div>
+        <section id="AboutMe">
             <h1>About Me</h1>
-            <p>{AboutMeData.description}</p>
-        </>
+            <p className="paragraph">{AboutMeData.description}</p>
+        </section>
     )
 }
 

@@ -15,7 +15,7 @@ const SliceOfLifeData = [
     },
     {
         type: 'Roller Coasters',
-        description: 'I am an enthusiast that geeks out over roller coasters more than anything else in the world! (X2 and El Toro are the best)',
+        description: `I'm an enthusiast that geeks out over roller coasters more than anything else in the world! (X2 and El Toro are the best)`,
         images: {
 
         }

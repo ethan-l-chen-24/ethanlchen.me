@@ -1,10 +1,6 @@
+@import "./AboutMe.css";
 @import "./SliceOfLife.css";
 @import "./Contact.css";
-
-section {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
 hr {
     width: 80%;
@@ -13,9 +9,17 @@ hr {
     opacity: 100%
 }
 
-div > h1 {
+section {
+    padding: 100px 30px;
+}
+
+section > h1 {
     text-align: center;
     margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
 }
 
 .center {
@@ -31,8 +35,8 @@ div > h1 {
 }
 
 .boxed {
-    background-color: white;
-    color: black;
+    background-color: #ff8c00;
+    color: white;
     padding: 20px;
     border: black 1px solid;
     border-radius: 2rem;
