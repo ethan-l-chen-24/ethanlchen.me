@@ -1,21 +1,16 @@
 section#contactMe {
     background-color: #434242;
-    color: #1173a8
+    color: #7f7f7f;
 }
 
 .dot {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 10px 0px 40px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.dot > .icon {
-    position: relative;
-
 }
 
 #Email {
