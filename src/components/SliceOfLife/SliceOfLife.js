@@ -7,8 +7,8 @@ const SliceOfLife = () => {
         <div id="sliceOfLife">
             <h1>Slice Of Life</h1>
             <p className='quote'>
-                <i>"I don't know where I'm gonna be in five years. I don't wanna know. I want my life to be an adventure."</i>
-                <div>- Robin Scherbatsky</div>
+                <i>"You have to let me dance my own battles."</i>
+                <div>- Marshall Erickson</div>
             </p>
             <hr id="sliceOfLifeHR"/>
             {SliceOfLifeData.map((activity) => 
