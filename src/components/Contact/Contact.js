@@ -22,6 +22,9 @@ const Contact = () => {
 
                 </Row>      
             </Container>
+            <p className='copyright'>
+                Copyright &copy; 2021 by Ethan Chen. All rights reserved.
+            </p>
             
         </section>
     )
