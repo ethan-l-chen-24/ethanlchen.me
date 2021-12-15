@@ -11,7 +11,7 @@ const Contact = () => {
                 <Row>
 
                     { ContactData.map((contact) => 
-                    (<Col xs={6} md={3} >
+                    (<Col xs={6} md={3} className='center'>
                         <ContactTile name={contact.name} link={contact.link} icon={contact.icon}/>
                     </Col>)
                     )}

@@ -7,8 +7,7 @@ section#contactMe {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    display: inline-block;
-    margin: 0;
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
