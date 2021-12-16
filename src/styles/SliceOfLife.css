@@ -22,6 +22,8 @@
 }
 
 .fall {
+    background-position: center;
+    background-size: 2400px;
     background-image: url("../images/fall.jpeg");
     background-repeat: no-repeat;
     opacity: 60%;

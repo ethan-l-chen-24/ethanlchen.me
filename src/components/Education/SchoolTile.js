@@ -5,7 +5,7 @@ const SchoolTile = ( { school, logo, location, years, degree, activities } ) => 
     return (
         <Col xs={12} lg={6}>
             <div className='boxed schoolBox'>
-                <div>{ school }</div>
+                <div id={logo} className="schoolLogo">{ school }</div>
                 <div> { logo }</div>
                 <div> { location } </div>
                 <div> { years } </div>
