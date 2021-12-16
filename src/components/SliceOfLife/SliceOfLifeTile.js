@@ -6,7 +6,7 @@ const SliceOfLifeTile = ( { type, description, images } ) => {
         <Container>
             <Row className="activity">
                 <Col xs={12} md={3} className='center left-align'>
-                    <u><h2>{ type }</h2></u>
+                    <h2><u>{ type }</u></h2>
                 </Col>
                 <Col xs={12} md={9} className='center'>
                     <p className="boxed solDescription">{ description }</p>

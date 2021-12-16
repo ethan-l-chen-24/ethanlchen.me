@@ -6,3 +6,28 @@
     height: 2px;
     color: black;
 }
+
+.emptyCircle {
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 1px black solid;
+    display: inline-block;
+}
+
+.fullCircle {
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px black solid;
+    display: inline-block;
+}
+
+.abilityHeader, .skillCol, .scoreCol {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}

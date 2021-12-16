@@ -6,12 +6,12 @@ const AbilityTile = ( { skill } ) => {
     const alt = 5 - skill.score;
 
     return (
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} lg={6} xl={4}>
             <Row>
-                <Col xs={8} className='skillCol'>
+                <Col xs={6} className='skillCol'>
                     {skill.name}
                 </Col>
-                <Col xs={4}className='scoreCol'>
+                <Col xs={6} className='scoreCol'>
                     {[...Array(alt)].map(() => 
                         (<span className="emptyCircle"></span>)
                     )}

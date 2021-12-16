@@ -25,6 +25,14 @@ p {
     margin: 10px;
 }
 
+h2 {
+    text-underline-offset: 5px;
+}
+
+.separate {
+    margin-bottom: 20px;
+}
+
 .center {
     display: flex;
     justify-content: center;
