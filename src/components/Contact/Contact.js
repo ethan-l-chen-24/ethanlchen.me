@@ -8,7 +8,7 @@ const Contact = () => {
         <section id="contactMe">
             <h1>Contact Me</h1>
             <p className='quote'>
-                <i>"Hello... Goodbye!</i>
+                <i>"Hello... Goodbye!"</i>
                 <div>- Ranjit</div>
             </p>
             <hr id="contactMeHR"/>

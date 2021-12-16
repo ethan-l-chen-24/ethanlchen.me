@@ -1,6 +1,7 @@
 import React from 'react'
 import SchoolTile from './SchoolTile'
 import EducationData from './EducationData'
+import { Container, Row } from 'react-bootstrap'
 
 const Education = () => {
     return (
@@ -11,9 +12,13 @@ const Education = () => {
                 <div>- Ted Mosby</div>
             </p>
             <hr id="projectsHR"/>
-            { EducationData.map((school) => 
-            (<SchoolTile school={school.school} logo={school.logo} location={school.location} years={school.years} degree={school.degree} activites={school.activities} />)
-            )}
+            <Container>
+                <Row>
+                    { EducationData.map((school) => 
+                    (<SchoolTile school={school.school} logo={school.logo} location={school.location} years={school.years} degree={school.degree} activites={school.activities} />)
+                    )}  
+                </Row>
+            </Container>
 
         </section>
     )

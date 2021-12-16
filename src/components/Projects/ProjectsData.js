@@ -21,7 +21,7 @@ const ProjectsData = [
         date: 'Nov 2021',
         github: 'https://github.com/ethan-l-chen-24/Sudoku-Solver',
         description: 
-            'A final group project for CS50: Software Design and Implementation, this project creates and solves a 4x4, 9x9, or 16x16 sudoku board. It also contains server-client capabilities to communicate across machines.'
+            'A program that creates and solves a 4x4, 9x9, or 16x16 sudoku board. It also contains server-client capabilities to communicate across machines.'
     },
     {
         name: 'Pandemic',

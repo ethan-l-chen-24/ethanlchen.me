@@ -1,8 +1,13 @@
 @import "./AboutMe.css";
+@import "./Education.css";
 @import "./Projects.css";
 @import "./Abilities.css";
 @import "./SliceOfLife.css";
 @import "./Contact.css";
+
+* {
+    box-sizing: border-box;
+}
 
 hr {
     width: 80%;
