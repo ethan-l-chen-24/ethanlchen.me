@@ -65,3 +65,8 @@ h2 {
     justify-content: left;
     text-align: left;
 }
+
+.vl {
+    border-left: 2px solid;
+    height: 15px;
+  }
