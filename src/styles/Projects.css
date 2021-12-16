@@ -19,3 +19,9 @@
     margin: 5px auto 5px auto;
     width: 100%;
 }
+
+.repoLink {
+    background-color: white;
+    color: black;
+    text-underline-offset: 3px;
+}
