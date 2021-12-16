@@ -8,10 +8,14 @@
 }
 
 .projectBox {
+    height: 250px;
+    width: auto;
     background-color: #528aae;
     color: white;
+    margin: 20px;
 }
 
-.projectHR {
+.projectTileHR {
     margin: 5px auto 5px auto;
+    width: 100%;
 }

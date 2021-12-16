@@ -44,3 +44,8 @@ p {
     top: 8px;
     width: 100%;
 }
+
+.left-align {
+    justify-content: left;
+    text-align: left;
+}
