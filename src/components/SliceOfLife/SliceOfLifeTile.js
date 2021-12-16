@@ -9,7 +9,7 @@ const SliceOfLifeTile = ( { type, description, images } ) => {
                     <u><h2>{ type }</h2></u>
                 </Col>
                 <Col xs={12} md={9} className='center'>
-                    <p className="boxed">{ description }</p>
+                    <p className="boxed solDescription">{ description }</p>
                 </Col>
             </Row>
             <Row>

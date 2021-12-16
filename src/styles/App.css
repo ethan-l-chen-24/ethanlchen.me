@@ -36,8 +36,6 @@ p {
 }
 
 .boxed {
-    background-color: #ff8c00;
-    color: white;
     padding: 20px;
     border: black 1px solid;
     border-radius: 2rem;

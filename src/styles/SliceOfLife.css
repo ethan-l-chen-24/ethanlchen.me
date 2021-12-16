@@ -12,6 +12,11 @@
     color: black;
 }
 
+.solDescription {
+    background-color: #ff8c00;
+    color: white;
+}
+
 .activity {
     margin: 20px;
 }

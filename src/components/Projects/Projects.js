@@ -15,7 +15,7 @@ const Projects = () => {
              <Container>
                 <Row>
                     {ProjectsData.map((project) =>
-                    (<Col xs={6} lg={3} className='center'>
+                    (<Col xs={12} lg={6} className='center'>
                         <ProjectTile name={project.name} languages={project.languages} date={project.date} github={project.github} description={project.description}/>
                     </Col>)
                     )}

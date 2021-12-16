@@ -1,8 +1,17 @@
 #projects {
-
+    background-color: #a4c3d2;
 }
 
 #projectsHR {
     height: 2px;
     color: black;
+}
+
+.projectBox {
+    background-color: #528aae;
+    color: white;
+}
+
+.projectHR {
+    margin: 5px auto 5px auto;
 }
