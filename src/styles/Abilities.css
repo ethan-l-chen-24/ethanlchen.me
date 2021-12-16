@@ -26,8 +26,21 @@
     display: inline-block;
 }
 
-.abilityHeader, .skillCol, .scoreCol {
-    display: flex;
-    justify-content: center;
-    text-align: left;
+@media (max-width: 991px) {
+    .categories {
+        margin-left: 25%;
+    }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .categories {
+        margin-left: 12.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .categories {
+        margin-left: 8.33%;
+    }
+}
+
