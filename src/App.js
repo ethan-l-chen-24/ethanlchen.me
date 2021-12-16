@@ -12,6 +12,7 @@ function App() {
 
         <AboutMe />
         <Projects />
+        <Abilities />
         <SliceOfLife />
         <Contact />
 

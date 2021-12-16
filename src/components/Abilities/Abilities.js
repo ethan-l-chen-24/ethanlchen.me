@@ -4,12 +4,12 @@ import AbilitiesSection from './AbilitiesSection'
 
 const Languages = () => {
     return (
-        <div>
-            <h1>Languages</h1>
+        <section id="abilities">
+            <h1>Abilities</h1>
             { AbilitiesData.map((language) =>
-            (<AbilitiesSection name={language.name} logo={language.logo} />)
+                (<AbilitiesSection sectionName={language.sectionName} skills={language.skills} />)
             )}
-        </div>
+        </section>
     )
 }
 

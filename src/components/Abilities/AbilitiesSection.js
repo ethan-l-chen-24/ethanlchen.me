@@ -1,12 +1,18 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap'
+import AbilityTile from './AbilityTile'
 
-const LanguageTile = ( { name, logo } ) => {
+const AbilitiesSection = ( { sectionName, skills } ) => {
     return (
-        <div>
-            <div>{ name }</div>
-            <div>{ logo }</div>
-        </div>
+        <Container>
+            <h2>{ sectionName }</h2>
+            <Row>
+                {skills.map((skill) =>
+                    (<AbilityTile skill={skill}/>)
+                )}
+            </Row>
+        </Container>
     )
 }
 
-export default LanguageTile
+export default AbilitiesSection
