@@ -8,7 +8,7 @@ const Projects = () => {
         <section id="projects">
             <h1>Projects</h1>  
             <p className='quote'>
-                <i>“It’s funny sometimes you walk into a place and you know you’re exactly where you’re supposed to be.”</i>
+                <i>“I don’t know where I’m gonna be in five years. I don’t wanna know. I want my life to be an adventure.”</i>
                 <div>- Ted Mosby</div>
             </p>
             <hr id="projectsHR"/>
