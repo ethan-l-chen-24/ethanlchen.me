@@ -7,7 +7,7 @@ const EducationData = [
         degree: 'Pursuing a B.A. in Computer Science Modified w/ Engineering Sciences',
         activities: [
             {
-                name: 'COSC 10, Problem Solving via Object-Oriented Programming',
+                name: 'Dartmouth Computer Science Department',
                 position: 'Teaching Assistant'
             },
             {

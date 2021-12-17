@@ -1,5 +1,8 @@
 import React, { useContext } from 'react'
 import { Accordion, AccordionContext, Card, useAccordionButton, Button } from 'react-bootstrap'
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa'
+
+var state = false;
 
 function ContextAwareToggle({ children, eventKey, callback }) {
     const { activeEventKey } = useContext(AccordionContext);
@@ -12,23 +15,25 @@ function ContextAwareToggle({ children, eventKey, callback }) {
     const isCurrentEventKey = activeEventKey === eventKey;
   
     return (
-      <div
-        onClick={onClick}
-      >
+      <div onClick={onClick} className="experiencesDropdown">
         {children}
+        <u>Relevant Experiences</u> &nbsp; &nbsp; {isCurrentEventKey ? <FaChevronUp /> : <FaChevronDown />}
       </div>
     );
-  }
+}
   
-  function Experiences() {
+  function Experiences( { activities } ) {
+
     return (
       <Accordion>
         <Card className="experiences">
           <Card.Header>
-            <ContextAwareToggle eventKey="0">Relevant Experiences</ContextAwareToggle>
+            <ContextAwareToggle eventKey="0" />
           </Card.Header>
           <Accordion.Collapse eventKey="0">
-            <div>WHERE IS THE BODY</div>
+            <div>
+                {activities.map((activity) => (<div>{activity.name + " | " + activity.position}</div>))}
+            </div>
           </Accordion.Collapse>
         </Card>
       </Accordion>

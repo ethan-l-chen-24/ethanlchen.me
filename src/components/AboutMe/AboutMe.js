@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <div>- Barney Stinson</div>
             </p>
             <hr id="aboutMeHR"/>
-            <p className="paragraph">{AboutMeData.description}</p>
+            <p className="paragraph" id="aboutMeParagraph">{AboutMeData.description}</p>
         </section>
     )
 }

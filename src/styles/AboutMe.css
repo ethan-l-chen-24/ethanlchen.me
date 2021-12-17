@@ -8,6 +8,10 @@
     width: 100%;
 }
 
+#aboutMeParagraph {
+    padding: 0px 10% 0px 10%;
+}
+
 #aboutMeHR {
     height: 2px;
     color: black;

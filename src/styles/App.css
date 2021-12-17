@@ -49,6 +49,7 @@ h2 {
 .quote {
     text-align: center;
     margin: auto 10px 10px 15px;
+    padding: 0px 10% 0px 10%;
 }
 
 .boxed {
