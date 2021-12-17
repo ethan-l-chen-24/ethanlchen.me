@@ -1,4 +1,5 @@
 import React from 'react'
+import Title from './components/Title/Title'
 import AboutMe from './components/AboutMe/AboutMe'
 import Education from './components/Education/Education'
 import Abilities from './components/Abilities/Abilities'
@@ -10,6 +11,7 @@ function App() {
   return (
       <div className="App">
 
+        <Title />
         <AboutMe />
         <Education />
         <Projects />
