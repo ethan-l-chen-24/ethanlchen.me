@@ -1,6 +1,12 @@
 #title {
+    font-family: LGItalic, 'serif';
     font-size: 100px;
-    text-align: center;
+    line-height: .7em;
     padding: 30px;
-    background-color: lightsteelblue;
+    color: #1b9ce5;
+    background-color: #222629;
+}
+
+.rightAligned {
+    text-align: right;
 }

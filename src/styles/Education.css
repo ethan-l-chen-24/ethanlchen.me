@@ -28,6 +28,7 @@
 
 .centerText {
     text-align: center;
+    align-self: center;
 }
 
 .experiences, .card-header, .card-body{
@@ -44,6 +45,11 @@
 .experiencesDropdown:hover {
     color: #0645AD;
     cursor: pointer;
+}
+
+.visibleSm {
+    visibility: hidden;
+    height: 0px;
 }
 
 /* xs */
@@ -63,6 +69,16 @@
     .leftBorder {
         border-left: 2px white solid;
         padding: 20px;
+    }
+
+    .invisibleSm {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .visibleSm {
+        visibility: visible;
+        height: auto;
     }
 }
 

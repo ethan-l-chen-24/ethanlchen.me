@@ -23,8 +23,11 @@ const SchoolTile = ( { school, logo, location, years, degree, activities } ) => 
                         
                         <div> { years } </div>
                         <div> { degree } </div>
-                        <Experiences activities={activities}/>
+                        <div className='invisibleSm'> <Experiences activities={activities}/> </div>
                     </Col>
+                    <Row className='center visibleSm'>
+                        <Experiences activities={activities}/>
+                    </Row>
                 </Row>
             </div>
         </Col>
