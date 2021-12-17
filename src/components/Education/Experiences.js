@@ -1,26 +1,38 @@
-import React, { useState } from 'react'
-import { Accordion, Button } from 'react-bootstrap'
+import React, { useContext } from 'react'
+import { Accordion, AccordionContext, Card, useAccordionButton, Button } from 'react-bootstrap'
 
-const Experiences = ( { activities } ) => {
-
-    const [active, setActive] = useState(false);
-
+function ContextAwareToggle({ children, eventKey, callback }) {
+    const { activeEventKey } = useContext(AccordionContext);
+  
+    const onClick = useAccordionButton(
+      eventKey,
+      () => callback && callback(eventKey),
+    );
+  
+    const isCurrentEventKey = activeEventKey === eventKey;
+  
     return (
-        <div>
-            <Accordion>
-                <Accordion.Toggle as={Button}
-                variant="link"
-                eventKey="0"
-                onClick={(() => setActive(!active))}
-                >
-                    Relevant Coursework
-                </Accordion.Toggle>
-            </Accordion>
-            <Accordion.Collapse>
-                hello
-            </Accordion.Collapse>
-        </div>
-    )
-}
-
+      <div
+        onClick={onClick}
+      >
+        {children}
+      </div>
+    );
+  }
+  
+  function Experiences() {
+    return (
+      <Accordion>
+        <Card className="experiences">
+          <Card.Header>
+            <ContextAwareToggle eventKey="0">Relevant Experiences</ContextAwareToggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="0">
+            <div>WHERE IS THE BODY</div>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
+    );
+  }
+  
 export default Experiences
