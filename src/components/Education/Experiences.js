@@ -17,7 +17,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
     return (
       <div onClick={onClick} className="experiencesDropdown">
         {children}
-        <u>Relevant Experiences</u> &nbsp; &nbsp; {isCurrentEventKey ? <FaChevronUp /> : <FaChevronDown />}
+        <u>Relevant Experiences</u> {isCurrentEventKey ? <FaChevronUp /> : <FaChevronDown />}
       </div>
     );
 }

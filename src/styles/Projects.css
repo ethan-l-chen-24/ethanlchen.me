@@ -8,7 +8,7 @@
 }
 
 .projectBox {
-    height: 250px;
+    height: 300px;
     width: auto;
     background-color: #528aae;
     color: white;
@@ -24,4 +24,9 @@
     background-color: white;
     color: black;
     text-underline-offset: 3px;
+}
+
+.middleBar {
+    border-left: 2px white solid;
+    padding: 20px;
 }

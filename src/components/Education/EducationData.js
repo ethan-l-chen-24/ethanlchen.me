@@ -7,12 +7,12 @@ const EducationData = [
         degree: 'Pursuing a B.A. in Computer Science Modified w/ Engineering Sciences',
         activities: [
             {
-                name: 'Dartmouth Computer Science Department',
-                position: 'Teaching Assistant'
+                name: 'Dartmouth CS10',
+                position: 'TA'
             },
             {
                 name: 'Reality & Robotics Lab',
-                position: 'Undergraduate Researcher'
+                position: 'Researcher'
             },
             {
                 name: 'Club Squash Team',
@@ -44,7 +44,7 @@ const EducationData = [
                 position: 'Captain'
             },
             {
-                name: 'Big Brothers Big Sisters of Western MA',
+                name: 'Big Brothers Big Sisters',
                 position: 'Mentor'
             }
         ]
