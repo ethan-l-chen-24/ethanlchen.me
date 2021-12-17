@@ -27,6 +27,65 @@
     transition: all 0.5s;
 }
 
+.centerText {
+    text-align: center;
+}
+
+/* xs */
+@media (max-width: 576px) {
+    .schoolLogo {
+        margin-bottom: 20px;
+    }
+
+    .vlRight {
+        border-right: 2px solid;
+        height: 100%px;
+      }
+}
+
+/* sm */
+@media (min-width: 577px) and (max-width: 767px) {
+    .leftBorder {
+        border-left: 2px white solid;
+        padding: 20px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991px) {
+    .leftBorder {
+        border-left: 2px white solid;
+        padding: 20px;
+    }
+}
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .leftBorder {
+        border-left: 2px white solid;
+        padding: 20px;
+    }
+
+    .vlRight {
+        border-right: 2px solid;
+        height: 100%px;
+      }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    .leftBorder {
+        border-left: 2px white solid;
+        padding: 20px;
+    }
+}
+
+div .educationHR {
+    margin: 8px auto 8px auto;
+    height: 2px;
+    width: 100%;
+}
+
 #deerfield {
     background-image: url('../images/deerfLogo.png');
 }
@@ -34,3 +93,4 @@
 #dartmouth {
     background-image: url('../images/dartLogo.png');
 }
+
