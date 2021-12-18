@@ -24,11 +24,14 @@ section {
 section > h1 {
     text-align: center;
     margin-bottom: 15px;
+    font-size: 8em;
+    font-family: LG, 'serif';
 }
 
 p {
     text-align: center;
     margin: 10px;
+    font-family: Arvo, 'serif';
 }
 
 h2 {
@@ -51,12 +54,13 @@ h2 {
     text-align: center;
     margin: auto 10px 10px 15px;
     padding: 0px 10% 0px 10%;
+    font-family: Arvo, 'serif';
 }
 
 .boxed {
     padding: 20px;
     border: black 1px solid;
-    border-radius: 2rem;
+    
     box-shadow: 0px 3px 10px black;
     position: relative;
     top: 8px;
@@ -67,4 +71,3 @@ h2 {
     justify-content: left;
     text-align: left;
 }
-

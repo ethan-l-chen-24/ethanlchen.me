@@ -1,12 +1,32 @@
 #title {
     font-family: LGItalic, 'serif';
-    font-size: 100px;
-    line-height: .7em;
+    font-size: 15em;
     padding: 30px;
+    background-color: #0f292f;
+}
+
+.introducing {
+    color: white;
+    line-height: .743em;
+}
+
+.name {
     color: #1b9ce5;
-    background-color: #222629;
+    line-height: .743em;
 }
 
 .rightAligned {
     text-align: right;
 }
+
+.sideText {
+    position: relative;
+}
+
+.resume {
+    position: relative;
+    top: 60px;
+    color: #434242;
+    line-height: .8em;
+}
+

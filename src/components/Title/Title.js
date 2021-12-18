@@ -7,21 +7,35 @@ const Title = () => {
             <Container>
                 <Row>
                     <Col xs={6} className='rightAligned'>
-                        <div>
-                            INTRO
+                        <div className='introducing'>
+                            <div>
+                                INTRO
+                            </div>
+                            <div>
+                                DUCING
+                            </div>
                         </div>
-                        <div>
-                            DUCING
-                        </div>
-                        <div>
-                            ETHAN
-                        </div>
-                        <div>
-                            CHEN
+                        <div className='name'>
+                            <div>
+                                ETHAN
+                            </div>
+                            <div>
+                                CHEN
+                            </div>
                         </div>
                     </Col>
-                    <Col xs={6}>
-                    
+                    <Col xs={6} className='sideText'>
+                        <div className='resume'>
+                            <div>
+                                inter
+                            </div>
+                            <div>
+                                active
+                            </div>
+                            <div>
+                                resume
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
