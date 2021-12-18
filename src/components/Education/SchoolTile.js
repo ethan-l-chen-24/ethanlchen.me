@@ -12,11 +12,11 @@ const SchoolTile = ( { school, logo, location, years, degree, activities } ) => 
                     </Col>
                     <Col xs={12} sm={6} md={7} lg={8} xl={7} className='leftBorder centerText'>
                         <Row>
-                            <Col xs={8} sm={12} lg={7} xl={12} className='vlRight'>
-                                <div> { school }</div>
+                            <Col xs={7} sm={12} lg={7} xl={12} className='vlRight'>
+                                <div className='schoolName'> <b>{ school }</b></div>
                             </Col>
-                            <Col xs={4} sm={12} lg={5} xl={12} className='center'>
-                                <div> { location } </div>
+                            <Col xs={5} sm={12} lg={5} xl={12} className='center'>
+                                <div className='schoolLocation'> <i>{ location }</i> </div>
                             </Col>
                         </Row>
                         <hr className="educationHR"/>

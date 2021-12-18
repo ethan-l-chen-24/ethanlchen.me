@@ -52,6 +52,18 @@
     height: 0px;
 }
 
+.schoolName {
+    font-size: 2em;
+}
+
+.schoolLocation {
+    font-size: 1.5em;
+}
+
+.schoolLocation {
+
+}
+
 /* xs */
 @media (max-width: 576px) {
     .schoolLogo {

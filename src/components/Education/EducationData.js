@@ -4,7 +4,7 @@ const EducationData = [
         logo: 'dartmouth',
         location: 'Hanover, NH',
         years: 'Sep 2020 - June 2024',
-        degree: 'Pursuing a B.A. in Computer Science Modified w/ Engineering Sciences',
+        degree: 'Pursuing a B.A. in CS Modified w/ Engineering Sciences',
         activities: [
             {
                 name: 'Dartmouth CS10',
