@@ -7,16 +7,33 @@ import Projects from './Projects/Projects'
 import SliceOfLife from './SliceOfLife/SliceOfLife'
 import Contact from './Contact/Contact.js'
 
-const Body = ( { title, aboutMe, education, projects, abilities, sliceOfLife, contact } ) => {
+const Body = ( { aboutMe, education, projects, abilities, sliceOfLife, contactMe } ) => {
     return (
         <div>
             <Title />
-            <AboutMe />
-            <Education />
-            <Projects />
-            <Abilities />
-            <SliceOfLife />
-            <Contact />
+            <div ref={aboutMe}>
+                <AboutMe />
+            </div>
+
+            <div ref={education}>
+                <Education />
+            </div>
+
+            <div ref={projects}>
+                <Projects />
+            </div>
+
+            <div ref={abilities}>
+                <Abilities />
+            </div>
+
+            <div ref={sliceOfLife}>
+                <SliceOfLife />
+            </div>
+
+            <div ref={contactMe}>
+                <Contact />
+            </div>
         </div>
     )
 }

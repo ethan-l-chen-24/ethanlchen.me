@@ -43,6 +43,7 @@ function App() {
           projects={projects}
           sliceOfLife={sliceOfLife}
           contactMe={contactMe}
+          abilities={abilities}
         />
       </div>
   );
