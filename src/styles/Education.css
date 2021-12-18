@@ -1,5 +1,6 @@
 #education {
     background-color: #3b4f59;
+    color: white;
 }
 
 .schoolBox {
@@ -47,9 +48,8 @@
     cursor: pointer;
 }
 
-.visibleSm {
-    visibility: hidden;
-    height: 0px;
+.row.visibleSm {
+    display: none;
 }
 
 .schoolName {
@@ -58,10 +58,6 @@
 
 .schoolLocation {
     font-size: 1.5em;
-}
-
-.schoolLocation {
-
 }
 
 /* xs */
@@ -84,13 +80,11 @@
     }
 
     .invisibleSm {
-        visibility: hidden;
-        height: 0px;
+        display: none;
     }
 
-    .visibleSm {
-        visibility: visible;
-        height: auto;
+    .row.visibleSm {
+        display: block;
     }
 }
 

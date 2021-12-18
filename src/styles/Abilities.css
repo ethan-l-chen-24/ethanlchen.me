@@ -1,11 +1,11 @@
 #abilities {
     background-color: #0c151b;
-    color: #86c232
+    color: white;
 }
 
 #abilitiesHR {
     height: 2px;
-    color: #86c232;
+    color: white;
 }
 
 .emptyCircle {
@@ -13,7 +13,7 @@
     height: 12px;
     margin: 2px;
     border-radius: 50%;
-    border: 1px #86c232 solid;
+    border: 1px #1b9ce5 solid;
     display: inline-block;
 }
 
@@ -22,8 +22,8 @@
     height: 12px;
     margin: 2px;
     border-radius: 50%;
-    background-color: #86c232;;
-    border: 1px #86c232 solid;
+    background-color: #1b9ce5;
+    border: 1px #1b9ce5 solid;
     display: inline-block;
 }
 

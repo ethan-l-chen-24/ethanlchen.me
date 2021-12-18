@@ -9,7 +9,7 @@ const SliceOfLife = () => {
                 <h1>Slice Of Life</h1>
                 <p className='quote'>
                     <i>“Look at us, riding around in a limo, eating hot dogs… It’s like we’re the president.”</i>
-                    <div>- Marshall Erickson</div>
+                    <div>- Marshall Erickson&nbsp;&nbsp;</div>
                 </p>
                 <hr id="sliceOfLifeHR"/>
                 {SliceOfLifeData.map((activity) => 

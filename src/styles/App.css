@@ -1,3 +1,4 @@
+@import "./Navbar.css";
 @import "./Title.css";
 @import "./AboutMe.css";
 @import "./Education.css";
@@ -45,7 +46,7 @@ h2 {
 
 .center {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }

@@ -3,28 +3,28 @@ import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
     return (
-        <nav>
-            <a href="#title">
-                <img src="../../images/elc.svg" alt="ethan"></img>
+        <nav className='nav'>
+            <a href="#title" className='navLink'>
+                <span className="logo"></span>
             </a>  
-            <FaBars />
-            <div>
-                <a href="#aboutMe" activeStyle>
+            <FaBars className='bars'/>
+            <div className='navMenu'>
+                <a href="#aboutMe" className='navLink'>
                     About Me
                 </a>
-                <a href="#education" activeStyle>
+                <a href="#education" className='navLink'>
                     Education
                 </a>
-                <a href="#projects" activeStyle>
+                <a href="#projects" className='navLink'>
                     Projects
                 </a>
-                <a href="#abilities" activeStyle>
+                <a href="#abilities" className='navLink'>
                     Abilities
                 </a>
-                <a href="#sliceOfLife" activeStyle>
+                <a href="#sliceOfLife" className='navLink'>
                     Slice of Life
                 </a>
-                <a href="#contactMe" activeStyle>
+                <a href="#contactMe" className='navLink'>
                     Contact Me
                 </a>
             </div>

@@ -5,16 +5,17 @@ const ProjectTile = ( { name, languages, date, github, description} ) => {
 
     const getProjectDescription = () => {
        return (
-        <div>
-        <Row className='center'>
-            <Col xs={6}>{name}</Col>
-            <Col xs={6} className="middleBar">{date}</Col>
-        </Row>
+        <div className='projectBox'>
+            <div>
+                <div className='projectName'><b>{name}</b></div>
+                <div className='projectDate'><i>{date}</i></div>
+            </div>
         <hr className='projectTileHR'/>
         <p>{ description }</p>
         <Row className='center'>
             <Col xs={8}>
-                <p>{languages.map((language, i, arr) => (i === arr.length-1 ? (<span> {language} </span>) : (<span>{language + ', '}</span>)))}</p>
+                <span><u>Tags</u>:&nbsp;</span>
+                {languages.map((language, i, arr) => (i === arr.length-1 ? (<span> {language} </span>) : (<span>{language + ', '}</span>)))}
             </Col>
             <Col xs={4}>
                 <a className="boxed repoLink" href={github}>

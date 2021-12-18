@@ -9,7 +9,7 @@ const Contact = () => {
             <h1>Contact Me</h1>
             <p className='quote'>
                 <i>"Hello... Goodbye!"</i>
-                <div>- Ranjit</div>
+                <div>- Ranjit&nbsp;&nbsp;</div>
             </p>
             <hr id="contactMeHR"/>
             <Container>
