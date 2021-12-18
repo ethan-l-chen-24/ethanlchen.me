@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/ethanlchen.me/static/css/main.d426506b.chunk.css",
-    "main.js": "/ethanlchen.me/static/js/main.8d78ef4b.chunk.js",
-    "main.js.map": "/ethanlchen.me/static/js/main.8d78ef4b.chunk.js.map",
-    "runtime-main.js": "/ethanlchen.me/static/js/runtime-main.b3425485.js",
-    "runtime-main.js.map": "/ethanlchen.me/static/js/runtime-main.b3425485.js.map",
+    "main.css": "/ethanlchen.me/static/css/main.84077f41.chunk.css",
+    "main.js": "/ethanlchen.me/static/js/main.a70e76fd.chunk.js",
+    "main.js.map": "/ethanlchen.me/static/js/main.a70e76fd.chunk.js.map",
+    "runtime-main.js": "/ethanlchen.me/static/js/runtime-main.2945bfe0.js",
+    "runtime-main.js.map": "/ethanlchen.me/static/js/runtime-main.2945bfe0.js.map",
     "static/css/2.0a9ec390.chunk.css": "/ethanlchen.me/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.4e11a215.chunk.js": "/ethanlchen.me/static/js/2.4e11a215.chunk.js",
-    "static/js/2.4e11a215.chunk.js.map": "/ethanlchen.me/static/js/2.4e11a215.chunk.js.map",
-    "static/js/3.dcc1cadb.chunk.js": "/ethanlchen.me/static/js/3.dcc1cadb.chunk.js",
-    "static/js/3.dcc1cadb.chunk.js.map": "/ethanlchen.me/static/js/3.dcc1cadb.chunk.js.map",
+    "static/js/2.bf668226.chunk.js": "/ethanlchen.me/static/js/2.bf668226.chunk.js",
+    "static/js/2.bf668226.chunk.js.map": "/ethanlchen.me/static/js/2.bf668226.chunk.js.map",
+    "static/js/3.01bccb81.chunk.js": "/ethanlchen.me/static/js/3.01bccb81.chunk.js",
+    "static/js/3.01bccb81.chunk.js.map": "/ethanlchen.me/static/js/3.01bccb81.chunk.js.map",
     "index.html": "/ethanlchen.me/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/ethanlchen.me/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.d426506b.chunk.css.map": "/ethanlchen.me/static/css/main.d426506b.chunk.css.map",
-    "static/js/2.4e11a215.chunk.js.LICENSE.txt": "/ethanlchen.me/static/js/2.4e11a215.chunk.js.LICENSE.txt"
+    "static/css/main.84077f41.chunk.css.map": "/ethanlchen.me/static/css/main.84077f41.chunk.css.map",
+    "static/js/2.bf668226.chunk.js.LICENSE.txt": "/ethanlchen.me/static/js/2.bf668226.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ethanlchen.me/static/media/fall.678152e5.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3425485.js",
+    "static/js/runtime-main.2945bfe0.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.4e11a215.chunk.js",
-    "static/css/main.d426506b.chunk.css",
-    "static/js/main.8d78ef4b.chunk.js"
+    "static/js/2.bf668226.chunk.js",
+    "static/css/main.84077f41.chunk.css",
+    "static/js/main.a70e76fd.chunk.js"
   ]
 }
