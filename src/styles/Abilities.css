@@ -1,5 +1,5 @@
 #abilities {
-    background-color: #222629;
+    background-color: #0c151b;
     color: #86c232
 }
 
@@ -13,7 +13,7 @@
     height: 12px;
     margin: 2px;
     border-radius: 50%;
-    border: 1px black solid;
+    border: 1px #86c232 solid;
     display: inline-block;
 }
 
@@ -22,8 +22,8 @@
     height: 12px;
     margin: 2px;
     border-radius: 50%;
-    background-color: black;
-    border: 1px black solid;
+    background-color: #86c232;;
+    border: 1px #86c232 solid;
     display: inline-block;
 }
 
