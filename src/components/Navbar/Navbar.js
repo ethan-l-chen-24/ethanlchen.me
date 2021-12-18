@@ -1,35 +1,34 @@
 import React from 'react'
+import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
     return (
-        <>
-            <Nav>
-                <NavLink to="/">
-                    <h1>logo</h1>
-                </NavLink>  
-                <Bars />
-                <NavMenu>
-                    <NavLink to="/aboutMe" activeStyle>
-                        About Me
-                    </NavLink>
-                    <NavLink to="/aboutMe" activeStyle>
-                        Education
-                    </NavLink>
-                    <NavLink to="/aboutMe" activeStyle>
-                        Projects
-                    </NavLink>
-                    <NavLink to="/aboutMe" activeStyle>
-                        Slice of Life
-                    </NavLink>
-                    <NavLink to="/aboutMe" activeStyle>
-                        Abilities
-                    </NavLink>
-                    <NavLink to="/aboutMe" activeStyle>
-                        Contact Me
-                    </NavLink>
-                </NavMenu>
-            </Nav>  
-        </>
+        <nav>
+            <a href="#title">
+                <img src="../../images/elc.svg" alt="ethan"></img>
+            </a>  
+            <FaBars />
+            <div>
+                <a href="#aboutMe" activeStyle>
+                    About Me
+                </a>
+                <a href="#education" activeStyle>
+                    Education
+                </a>
+                <a href="#projects" activeStyle>
+                    Projects
+                </a>
+                <a href="#abilities" activeStyle>
+                    Abilities
+                </a>
+                <a href="#sliceOfLife" activeStyle>
+                    Slice of Life
+                </a>
+                <a href="#contactMe" activeStyle>
+                    Contact Me
+                </a>
+            </div>
+        </nav>  
     )
 }
 
