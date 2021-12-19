@@ -48,9 +48,15 @@
         position: absolute;
         top: 0;
         right: 0;
+        cursor: pointer
+    }
+    .bars {
         transform: translate(-100%, 75%);
-        font-size: 1.8rem;
-        cursor: pointer;
+        font-size: 2rem;
+    }
+    .x {
+        transform: translate(-75%, 50%);
+        font-size: 2.5rem;
     }
 }
 

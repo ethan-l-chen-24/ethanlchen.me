@@ -34,6 +34,7 @@ function App() {
     } else if(abilitiesView) {
       return 'Abilities'
     } else {
+      if(sideBarOpen) setSideBar(false)
       return 'Title'
     }
   }
