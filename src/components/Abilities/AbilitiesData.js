@@ -94,6 +94,11 @@ const AbilitiesData = [
                 description: 'Description'
             },
             {
+                name: 'LaTeX',
+                score: 2,
+                description: 'Description'
+            },
+            {
                 name: 'XCode',
                 score: 1,
                 description: 'Description'

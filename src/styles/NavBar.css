@@ -22,7 +22,11 @@
 }
 
 .navLink:active {
-    color: #15cdfc;
+    color: #0f292f;
+}
+
+.navLink:hover {
+    color: #1b9ce5;
 }
 
 .bars {

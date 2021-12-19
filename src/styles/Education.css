@@ -1,10 +1,10 @@
 #education {
-    background-color: #3b4f59;
+    background-color: #304c59;
     color: white;
 }
 
 .schoolBox {
-    background-color: darkgoldenrod;
+    background-color: #cc860e;
     color: white;
     margin: 20px;
 }
@@ -33,7 +33,7 @@
 }
 
 .experiences, .card-header, .card-body{
-    background-color: darkgoldenrod;
+    background-color: #cc860e;
     border: none;
 
 }

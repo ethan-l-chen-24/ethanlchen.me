@@ -1,7 +1,6 @@
 #title {
     font-family: LGItalic, 'serif';
-    font-size: 15em;
-    padding: 100px 0px 100px 10px;
+    padding: 100px 0px 150px 10px;
     background-color: #0f292f;
 }
 
@@ -25,8 +24,64 @@
 
 .resume {
     position: relative;
-    top: 60px;
     color: #434242;
     line-height: .8em;
+}
+
+/* xs */
+@media (max-width: 576px) {
+
+    .introducing, .name, .resume {
+        font-size: 5em;
+    }
+
+    .resume {
+        top: 20px;
+    }
+}
+
+/* sm */
+@media (min-width: 577px) and (max-width: 767px) {
+    .introducing, .name, .resume {
+        font-size: 8em;
+    }
+
+    .resume {
+        top: 20px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991px) {
+    .introducing, .name, .resume {
+        font-size: 11em;
+    }
+
+    .resume {
+        top: 40px;
+        left: 10px;
+    }
+}
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .introducing, .name, .resume {
+        font-size: 14em;
+    }
+
+    .resume {
+        top: 50px;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    .introducing, .name, .resume {
+        font-size: 16em;
+    }
+
+    .resume {
+        top: 60px;
+    }
 }
 
