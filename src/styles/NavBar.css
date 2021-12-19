@@ -97,6 +97,17 @@
     position: fixed;
     width: 100%;
     top: 80px;
+    animation-name: slidein, slidout;
+    animation-duration: 0.5s;
+}
+
+@keyframes slidein {
+    from {
+        transform: translate(100vw, 0px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
 }
 
 .sidebarLink {
