@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Experiences from './Experiences'
 
-const SchoolTile = ( { school, logo, location, years, degree, activities } ) => {
+const SchoolTile = ( { school, logo, location, years, degree, activities, classes } ) => {
     return (
         <Col xs={12} xl={6}>
             <div className='boxed schoolBox'>
@@ -23,12 +23,16 @@ const SchoolTile = ( { school, logo, location, years, degree, activities } ) => 
                         
                         <div> { years } </div>
                         <div> { degree } </div>
-                        <div className='invisibleSm'> <Experiences activities={activities}/> </div>
+                        <div className='invisibleSm'> 
+                            <Experiences activities={activities} name='Activities'/> 
+                            <Experiences activities={classes} name='Relevant Coursework'/>
+                        </div>
                     </Col>
-                    <Row className='center visibleSm'>
-                        <Experiences activities={activities}/>
-                    </Row>
                 </Row>
+                <Row className='center visibleSm bottomDropdowns'>
+                        <Experiences activities={activities} name='Activities'/>
+                        <Experiences activities={classes} name='Relevant Coursework'/>
+                    </Row>
             </div>
         </Col>
     )

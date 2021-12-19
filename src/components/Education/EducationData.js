@@ -6,22 +6,15 @@ const EducationData = [
         years: 'Sep 2020 - June 2024',
         degree: 'Pursuing a B.A. in CS Modified w/ Engineering Sciences',
         activities: [
-            {
-                name: 'Dartmouth CS10',
-                position: 'TA'
-            },
-            {
-                name: 'Reality & Robotics Lab',
-                position: 'Researcher'
-            },
-            {
-                name: 'Club Squash Team',
-                position: 'Member'
-            },
-            {
-                name: 'Zeta Psi Fraternity',
-                position: 'Brother'
-            }
+            'Dartmouth COSC10 | TA',
+            'Reality & Robotics Lab | Researcher',
+            'Club Squash Team | Member',
+            'Zeta Psi Fraternity | Brother'
+        ],
+        classes: [
+            'COSC10: Problem Solving via Object-Oriented Programming',
+            'COSC30: Discrete Mathematics in Computer Science',
+            'COSC50: Software Design and Implementation'
         ]
     },
     {
@@ -31,22 +24,14 @@ const EducationData = [
         years: 'Sep 2016 - June 2020',
         degree: 'Robert Crowe Award Winner',
         activities: [
-            {
-                name: 'Cum Laude Society',
-                position: 'Member'
-            },
-            {
-                name: 'Peer Tutors',
-                position: 'Head Tutor'
-            },
-            {
-                name: 'Track and Field',
-                position: 'Captain'
-            },
-            {
-                name: 'Big Brothers Big Sisters',
-                position: 'Mentor'
-            }
+            'Cum Laude Society | Member',
+            'Peer Tutors | Head Tutor',
+            'Track and Field | Captain',
+            'Big Brothers Big Sisters | Mentor'
+        ],
+        classes: [
+            'COM600: Data Structures & Algorithms',
+            'COM602: Digital Logic & Computer Architecture'
         ]
     }
 ]

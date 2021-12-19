@@ -44,8 +44,13 @@
 }
 
 .experiencesDropdown {
-    margin-top: 20px;
+    margin-top: 10px;
     text-underline-offset: 3px;
+}
+
+.bottomDropdowns {
+    width: 100%;
+    margin: 0px;
 }
 
 .experiencesDropdown:hover {

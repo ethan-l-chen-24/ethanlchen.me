@@ -4,7 +4,7 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa'
 
 var state = false;
 
-function ContextAwareToggle({ children, eventKey, callback }) {
+function ContextAwareToggle({ children, eventKey, callback, name }) {
     const { activeEventKey } = useContext(AccordionContext);
   
     const onClick = useAccordionButton(
@@ -17,26 +17,28 @@ function ContextAwareToggle({ children, eventKey, callback }) {
     return (
       <div onClick={onClick} className="experiencesDropdown">
         {children}
-        <u>Relevant Experiences</u> {isCurrentEventKey ? <FaChevronUp /> : <FaChevronDown />}
+        <u>{name}</u> {isCurrentEventKey ? <FaChevronUp /> : <FaChevronDown />}
       </div>
     );
 }
   
-  function Experiences( { activities } ) {
+  function Experiences( { activities, name } ) {
 
     return (
+      <div>
       <Accordion>
         <Card className="experiences">
           <Card.Header>
-            <ContextAwareToggle eventKey="0" />
+            <ContextAwareToggle eventKey="0" name={name} />
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <div>
-                {activities.map((activity) => (<div>{activity.name + " | " + activity.position}</div>))}
+                {activities.map((activity) => (<div> {activity} </div>))}
             </div>
           </Accordion.Collapse>
         </Card>
       </Accordion>
+      </div>
     );
   }
   
