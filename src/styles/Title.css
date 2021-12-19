@@ -1,7 +1,13 @@
 #title {
     font-family: LGItalic, 'serif';
-    padding: 150px 0px 150px 10px;
     background-color: #0f292f;
+    height: 100vh;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.main {
+    transform: translate(0px, calc(100vh * .1));
 }
 
 .introducing {
@@ -57,7 +63,8 @@
 
 .downIcon {
     color: white;
-    margin-top: 20px;
+    position: relative;
+    bottom: 0;
 }
 
 .downIcon:hover {
@@ -66,6 +73,12 @@
 
 .defaultCursor {
     cursor: default;
+}
+
+.bottom {
+    width: 100vw;
+    align-self: flex-end;
+    transform: translate(0px, -40px);
 }
 
 /* xs */

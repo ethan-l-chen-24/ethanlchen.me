@@ -5,9 +5,9 @@ import { IconContext } from 'react-icons/lib'
 
 const Title = () => {
     return (
-        <div id="title">
+        <div id="title" className='center'>
             <Container>
-                <Row>
+                <Row className='main'>
                     <Col xs={6} className='rightAligned'>
                         <div className='introducing defaultCursor'>
                             <div>
@@ -55,7 +55,7 @@ const Title = () => {
                     </Col>
                 </Row>
             </Container>
-            <div className='center'>
+            <div className='center bottom'>
                 <IconContext.Provider value={{ size: '5em'}}>
                     <a href="#aboutMe" className='downIcon'><BiChevronDownCircle/></a>
                 </IconContext.Provider>
