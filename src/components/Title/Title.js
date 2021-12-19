@@ -11,19 +11,10 @@ const Title = () => {
                     <Col xs={6} className='rightAligned'>
                         <div className='introducing defaultCursor'>
                             <div>
-                                <span className='hoverChangeOrange'>I</span>
-                                <span className='hoverChangeOrange'>N</span>
+                                <span className='hoverChangeOrange'>M</span>
+                                <span className='hoverChangeOrange'>E</span>
+                                <span className='hoverChangeOrange'>E</span>
                                 <span className='hoverChangeOrange'>T</span>
-                                <span className='hoverChangeOrange'>R</span>
-                                <span className='hoverChangeOrange'>O</span>
-                            </div>
-                            <div>
-                                <span className='hoverChangeOrange'>D</span>
-                                <span className='hoverChangeOrange'>U</span>
-                                <span className='hoverChangeOrange'>C</span>
-                                <span className='hoverChangeOrange'>I</span>
-                                <span className='hoverChangeOrange'>N</span>
-                                <span className='hoverChangeOrange'>G</span>
                             </div>
                         </div>
                         <div className='name defaultCursor'>
@@ -45,27 +36,20 @@ const Title = () => {
                     <Col xs={6} className='sideText'>
                         <div className='resume defaultCursor'>
                             <div>
-                                <span className='disappear'>i</span>
-                                <span className='disappear'>n</span>
-                                <span className='disappear'>t</span>
-                                <span className='disappear'>e</span>
-                                <span className='disappear'>r</span>
-                            </div>
-                            <div>
-                                <span className='disappear'>a</span>
-                                <span className='disappear'>c</span>
-                                <span className='disappear'>t</span>
-                                <span className='disappear'>i</span>
                                 <span className='disappear'>v</span>
-                                <span className='disappear'>e</span>
+                                <span className='disappear'>i</span>
+                                <span className='disappear'>s</span>
+                                <span className='disappear'>u</span>
+                                <span className='disappear'>a</span>
+                                <span className='disappear'>l</span>
                             </div>
                             <div>
-                            <span className='disappear'>r</span>
-                            <span className='disappear'>e</span>
-                            <span className='disappear'>s</span>
-                            <span className='disappear'>u</span>
-                            <span className='disappear'>m</span>
-                            <span className='disappear'>e</span>
+                                <span className='disappear'>r</span>
+                                <span className='disappear'>e</span>
+                                <span className='disappear'>s</span>
+                                <span className='disappear'>u</span>
+                                <span className='disappear'>m</span>
+                                <span className='disappear'>e</span>
                             </div>
                         </div>
                     </Col>
