@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Body from './components/Body'
 import { useInView } from 'react-intersection-observer'
@@ -8,6 +8,10 @@ function App() {
   const options = {
     threshold: 0.2
   }
+
+  var [sideBarOpen, setSideBar] = useState(false)
+  const openSidebar = () => {setSideBar(true)}
+  const closeSidebar = () => {setSideBar(false)}
 
   const [aboutMe, aboutMeView] = useInView(options);
   const [education, educationView] = useInView(options);
@@ -34,19 +38,9 @@ function App() {
     }
   }
 
-  function disableScrolling(){
-    var x=window.scrollX;
-    var y=window.scrollY;
-    window.onscroll=function(){window.scrollTo(x, y);};
-}
-
-function enableScrolling(){
-    window.onscroll=function(){};
-}
-
   return (
       <div className="App">
-        <Navbar active={getActive()} enableScrolling={enableScrolling} disableScrolling={disableScrolling} />
+        <Navbar active={getActive()} sideBarOpen={sideBarOpen} openSidebar={openSidebar} closeSidebar={closeSidebar} />
         <Body 
           aboutMe={aboutMe}
           education={education}

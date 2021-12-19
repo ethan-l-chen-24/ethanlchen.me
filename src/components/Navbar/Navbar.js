@@ -1,17 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FaBars } from 'react-icons/fa'
-import { MdClose } from 'react-icons/md'
+import { VscChromeClose } from 'react-icons/vsc'
 
-const Navbar = ( { active, enableScrolling, disableScrolling } ) => {
-
-    const [sideBarOpen, setSideBar] = useState(false)
-
-    const openSidebar = () => {setSideBar(true)}
-    const closeSidebar = () => {setSideBar(false)}
+const Navbar = ( { active, sideBarOpen, openSidebar, closeSidebar } ) => {
 
     const isCurrent = (sectionName) => {
         if(active === sectionName) return ' current'
-        else return ''
+        return ''
     }
 
     const getSidebar = () => {
@@ -42,7 +37,7 @@ const Navbar = ( { active, enableScrolling, disableScrolling } ) => {
                         <span className="logo"></span>
                     </a>  
                     {sideBarOpen 
-                    ? <MdClose className='x' onClick={closeSidebar} />
+                    ? <VscChromeClose className='x' onClick={closeSidebar} />
                     : <FaBars className='bars' onClick={openSidebar} />}
                     
                     <div className='navMenu'>

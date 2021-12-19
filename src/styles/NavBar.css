@@ -115,7 +115,7 @@
     color: white;
 }
 
-.sidebarLink.contactMeLink:hover {
+.sidebarLink.contactMeLink:hover, .sidebarLink.contactMeLink.current {
     background-color: #cf8404;
     color: white;
 }
