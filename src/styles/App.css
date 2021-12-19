@@ -31,6 +31,7 @@ section > h1 {
 
 p {
     text-align: center;
+    font-size: 1.25em;
     margin: 10px;
     font-family: Arvo, 'serif';
 }
@@ -38,6 +39,7 @@ p {
 h2 {
     text-underline-offset: 5px;
     margin-bottom: 15px;
+    font-size: 2em;
 }
 
 .separate {
@@ -56,7 +58,7 @@ h2 {
     margin: auto 10px 10px 15px;
     padding: 0px 10% 0px 10%;
     font-family: Arvo, 'serif';
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .boxed {
@@ -72,4 +74,11 @@ h2 {
 .left-align {
     justify-content: left;
     text-align: left;
+}
+
+@media (max-width: 767px) {
+    .left-align {
+        justify-content: center;
+        text-align: center;
+    }
 }

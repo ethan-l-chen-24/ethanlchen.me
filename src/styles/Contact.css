@@ -47,3 +47,8 @@
     background-color: #222629;
     color: white;
 }
+
+#logos {
+    padding-right: var(--bs-gutter-x, 2em);
+    padding-left: var(--bs-gutter-x, 2em);
+}

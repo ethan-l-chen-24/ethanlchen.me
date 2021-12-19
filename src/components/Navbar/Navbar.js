@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 
 const Navbar = ( { active } ) => {
+
+    const [sideBarOpen, setSideBar] = useState(false)
+
+    const onOpen = () => { setSideBar(true) }
+    const onClose = () => { setSideBar(false) }
 
     const getNavbar = () => {
         if(active === 'Title') {
@@ -12,7 +17,7 @@ const Navbar = ( { active } ) => {
                 <a href="#title" className='navLink'>
                     <span className="logo"></span>
                 </a>  
-                <FaBars className='bars'/>
+                <FaBars className='bars' onClick />
                 <div className='navMenu'>
                     <a href="#aboutMe" className='navLink'>
                         About Me
@@ -32,6 +37,9 @@ const Navbar = ( { active } ) => {
                     <a href="#contactMe" className='navLink'>
                         Contact Me
                     </a>
+                </div>
+                <div className='sideBar'>
+
                 </div>
             </nav> 
             )

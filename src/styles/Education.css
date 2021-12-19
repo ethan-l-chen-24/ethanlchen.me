@@ -6,7 +6,12 @@
 .schoolBox {
     background-color: #cc860e;
     color: white;
-    margin: 20px;
+    width: auto;
+    margin: 20px 0px 20px 0px;
+}
+
+.container {
+    justify-items: center;
 }
 
 .schoolLogo {
@@ -33,7 +38,7 @@
 }
 
 .experiences, .card-header, .card-body{
-    background-color: #cc860e;
+    background-color: #cf8404;
     border: none;
 
 }

@@ -12,7 +12,7 @@ const Contact = () => {
                 <div>- Ranjit&nbsp;&nbsp;</div>
             </p>
             <hr id="contactMeHR"/>
-            <Container>
+            <Container id="logos">
                 <Row>
                     { ContactData.map((contact) => 
                     (<Col xs={6} lg={3} className='center'>

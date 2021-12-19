@@ -29,9 +29,17 @@
     color: #1b9ce5;
 }
 
+.navMenu .navLink:hover {
+    border-top: 1px solid #1b9ce5;
+}
+
 .bars {
     display: none;
     color: #fff;
+}
+
+.bars:hover {
+    color: #1b9ce5;
 }
 
 @media screen and (max-width: 992px) {
@@ -67,4 +75,11 @@
     position: relative;
     top: 5px;
 
+}
+
+.logo:hover {
+    background-size: 80px;
+    background-image: url("../images/elc2.svg");
+    background-repeat: no-repeat;
+    position: relative;
 }
