@@ -34,9 +34,19 @@ function App() {
     }
   }
 
+  function disableScrolling(){
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScrolling(){
+    window.onscroll=function(){};
+}
+
   return (
       <div className="App">
-        <Navbar active={getActive()} />
+        <Navbar active={getActive()} enableScrolling={enableScrolling} disableScrolling={disableScrolling} />
         <Body 
           aboutMe={aboutMe}
           education={education}

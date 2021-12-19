@@ -25,25 +25,25 @@
     color: #0f292f;
 }
 
-.navLink:hover {
+.navLink:hover, .bars:hover, .x:hover{
     color: #1b9ce5;
 }
 
-.navMenu .navLink:hover {
-    border-top: 1px solid #1b9ce5;
+.contactMeLink:hover, .contactMeLink.current {
+    color: #cf8404;
 }
 
-.bars {
+.navMenu .navLink:hover {
+    border-top: 1px solid;
+}
+
+.bars, .x {
     display: none;
     color: #fff;
 }
 
-.bars:hover {
-    color: #1b9ce5;
-}
-
 @media screen and (max-width: 992px) {
-    .bars {
+    .bars, .x {
         display: block;
         position: absolute;
         top: 0;
@@ -82,4 +82,40 @@
     background-image: url("../images/elc2.svg");
     background-repeat: no-repeat;
     position: relative;
+}
+
+.sidebar {
+    background: #222629;
+    opacity: 90%;
+    height: calc(100vh - 80px);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebarLink {
+    height: calc((100vh - 80px) / 6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    border-bottom: white 0.5px solid;
+}
+
+.sidebarLink:hover {
+    background-color: black;
+    color: white;
+}
+
+.sidebarLink.current {
+    background-color: #1b9ce5;
+    color: white;
+}
+
+.sidebarLink.contactMeLink:hover {
+    background-color: #cf8404;
+    color: white;
 }

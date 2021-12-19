@@ -1,23 +1,29 @@
 import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
+import { MdClose } from 'react-icons/md'
 
-const Navbar = ( { active } ) => {
+const Navbar = ( { active, enableScrolling, disableScrolling } ) => {
 
     const [sideBarOpen, setSideBar] = useState(false)
 
-    const onOpen = () => { setSideBar(true) }
-    const onClose = () => { setSideBar(false) }
+    const openSidebar = () => {setSideBar(true)}
+    const closeSidebar = () => {setSideBar(false)}
+
+    const isCurrent = (sectionName) => {
+        if(active === sectionName) return ' current'
+        else return ''
+    }
 
     const getSidebar = () => {
         if(sideBarOpen) {
             return (
                 <div className='sidebar'>
-                    <a href="#aboutMe" className='sidebarLink'> AboutMe </a>
-                    <a href="#education" className='sidebarLink'> Education </a>
-                    <a href="#projects" className='sidebarLink'> Projects </a>
-                    <a href="#abilities" className='sidebarLink'> Abilities </a>
-                    <a href="#sliceOfLife" className='sidebarLink'> Slice Of Life </a>
-                    <a href="#contactMe" className='sidebarLink'> Contact Me </a>
+                    <div><a href="#aboutMe" className={'sidebarLink' + isCurrent('About Me')} onClick={closeSidebar}> About Me </a></div>
+                    <div><a href="#education" className={'sidebarLink' + isCurrent('Education')} onClick={closeSidebar}> Education </a></div>
+                    <div><a href="#projects" className={'sidebarLink' + isCurrent('Projects')} onClick={closeSidebar}> Projects </a></div>
+                    <div><a href="#abilities" className={'sidebarLink' + isCurrent('Abilities')} onClick={closeSidebar}> Abilities </a></div>
+                    <div><a href="#sliceOfLife" className={'sidebarLink' + isCurrent('Slice of Life')} onClick={closeSidebar}> Slice Of Life </a></div>
+                    <div><a href="#contactMe" className={'sidebarLink' + isCurrent('Contact Me') + ' contactMeLink'} onClick={closeSidebar}> Contact Me </a></div>
                 </div>
             )
         } else {
@@ -30,33 +36,38 @@ const Navbar = ( { active } ) => {
             return null;
         } else {
             return (
+                <>
                 <nav className='nav'>
-                <a href="#title" className='navLink'>
-                    <span className="logo"></span>
-                </a>  
-                <FaBars className='bars' onClick />
-                <div className='navMenu'>
-                    <a href="#aboutMe" className='navLink'>
-                        About Me
-                    </a>
-                    <a href="#education" className='navLink'>
-                        Education
-                    </a>
-                    <a href="#projects" className='navLink'>
-                        Projects
-                    </a>
-                    <a href="#abilities" className='navLink'>
-                        Abilities
-                    </a>
-                    <a href="#sliceOfLife" className='navLink'>
-                        Slice of Life
-                    </a>
-                    <a href="#contactMe" className='navLink'>
-                        Contact Me
-                    </a>
-                </div>
+                    <a href="#title" className='navLink'>
+                        <span className="logo"></span>
+                    </a>  
+                    {sideBarOpen 
+                    ? <MdClose className='x' onClick={closeSidebar} />
+                    : <FaBars className='bars' onClick={openSidebar} />}
+                    
+                    <div className='navMenu'>
+                        <a href="#aboutMe" className='navLink'>
+                            About Me
+                        </a>
+                        <a href="#education" className='navLink'>
+                            Education
+                        </a>
+                        <a href="#projects" className='navLink'>
+                            Projects
+                        </a>
+                        <a href="#abilities" className='navLink'>
+                            Abilities
+                        </a>
+                        <a href="#sliceOfLife" className='navLink'>
+                            Slice of Life
+                        </a>
+                        <a href="#contactMe" className='navLink contactMeLink'>
+                            Contact Me
+                        </a>
+                    </div>
+                </nav> 
                 {getSidebar()}
-            </nav> 
+                </>
             )
         }
     }
