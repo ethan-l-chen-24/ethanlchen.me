@@ -14,8 +14,8 @@ const Education = () => {
             <hr id="educationHR"/>
             <Container>
                 <Row>
-                    { EducationData.map((school) => 
-                    (<SchoolTile school={school.school} logo={school.logo} location={school.location} years={school.years} degree={school.degree} activities={school.activities} classes={school.classes} />)
+                    { EducationData.map((school, i) => 
+                    (<SchoolTile key={i} school={school.school} logo={school.logo} location={school.location} years={school.years} degree={school.degree} activities={school.activities} classes={school.classes} />)
                     )}  
                 </Row>
             </Container>

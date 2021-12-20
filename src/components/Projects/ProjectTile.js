@@ -15,7 +15,7 @@ const ProjectTile = ( { name, languages, date, github, description} ) => {
         <Row className='center'>
             <Col xs={8}>
                 <span><u>Tags</u>:&nbsp;</span>
-                {languages.map((language, i, arr) => (i === arr.length-1 ? (<span> {language} </span>) : (<span>{language + ', '}</span>)))}
+                {languages.map((language, i, arr) => (i === arr.length-1 ? (<span key={i}> {language} </span>) : (<span key={i}>{language + ', '}</span>)))}
             </Col>
             <Col xs={4}>
                 <a className="boxed repoLink" href={github}>

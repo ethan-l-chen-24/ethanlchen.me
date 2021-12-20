@@ -14,9 +14,9 @@ const Projects = () => {
             <hr id="projectsHR"/>
              <Container>
                 <Row>
-                    {ProjectsData.map((project) =>
-                    (<Col xs={12} lg={6} className='center'>
-                        <ProjectTile name={project.name} languages={project.languages} date={project.date} github={project.github} description={project.description}/>
+                    {ProjectsData.map((project, i) =>
+                    (<Col key={i} xs={12} lg={6} className='center'>
+                        <ProjectTile key={i} name={project.name} languages={project.languages} date={project.date} github={project.github} description={project.description}/>
                     </Col>)
                     )}
                 </Row>      

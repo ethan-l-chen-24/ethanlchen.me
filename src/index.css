@@ -19,7 +19,6 @@
 body {
   margin: 0;
   font-family: Arvo, 'serif';
-  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,4 +26,39 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* xs */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* sm */
+@media (min-width: 577px) and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
 }

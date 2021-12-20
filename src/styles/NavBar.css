@@ -97,13 +97,33 @@
     position: fixed;
     width: 100%;
     top: 80px;
-    animation-name: slidein, slidout;
+}
+
+.open {
+    animation-name: slidein;
     animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(.33,.28,.29,.77);
 }
 
 @keyframes slidein {
     from {
         transform: translate(100vw, 0px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+.close {
+    animation-name: slideout;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(.33,.28,.29,.77);
+    left: 100vw;
+}
+
+@keyframes slideout {
+    from {
+        transform: translate(-100vw, 0px);
     }
     to {
         transform: translate(0px, 0px);

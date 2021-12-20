@@ -1,18 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { VscChromeClose } from 'react-icons/vsc'
 
-const Navbar = ( { active, sideBarOpen, openSidebar, closeSidebar } ) => {
+const Navbar = ( { active, sideBarOpen, openSidebar, closeSidebar, noClose, endNoClose } ) => {
 
     const isCurrent = (sectionName) => {
         if(active === sectionName) return ' current'
         return ''
     }
 
+    var toClose = false
+
+    useEffect(() => {
+        if(toClose) {
+            endNoClose()
+            toClose = false;
+        }
+    })
+
     const getSidebar = () => {
         if(sideBarOpen) {
+            toClose = true;
             return (
-                <div className='sidebar'>
+                <div className='sidebar open'>
                     <div><a href="#aboutMe" className={'sidebarLink' + isCurrent('About Me')} onClick={closeSidebar}> About Me </a></div>
                     <div><a href="#education" className={'sidebarLink' + isCurrent('Education')} onClick={closeSidebar}> Education </a></div>
                     <div><a href="#projects" className={'sidebarLink' + isCurrent('Projects')} onClick={closeSidebar}> Projects </a></div>
@@ -21,8 +31,17 @@ const Navbar = ( { active, sideBarOpen, openSidebar, closeSidebar } ) => {
                     <div><a href="#contactMe" className={'sidebarLink' + isCurrent('Contact Me') + ' contactMeLink'} onClick={closeSidebar}> Contact Me </a></div>
                 </div>
             )
-        } else {
+        } else if(noClose) {
             return null;
+        } else {
+            return (<div className='sidebar close'>
+                    <div><a href="#aboutMe" className={'sidebarLink' + isCurrent('About Me')} onClick={closeSidebar}> About Me </a></div>
+                    <div><a href="#education" className={'sidebarLink' + isCurrent('Education')} onClick={closeSidebar}> Education </a></div>
+                    <div><a href="#projects" className={'sidebarLink' + isCurrent('Projects')} onClick={closeSidebar}> Projects </a></div>
+                    <div><a href="#abilities" className={'sidebarLink' + isCurrent('Abilities')} onClick={closeSidebar}> Abilities </a></div>
+                    <div><a href="#sliceOfLife" className={'sidebarLink' + isCurrent('Slice of Life')} onClick={closeSidebar}> Slice Of Life </a></div>
+                    <div><a href="#contactMe" className={'sidebarLink' + isCurrent('Contact Me') + ' contactMeLink'} onClick={closeSidebar}> Contact Me </a></div>
+            </div>)
         }
     }
 

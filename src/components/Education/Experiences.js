@@ -1,8 +1,6 @@
 import React, { useContext } from 'react'
-import { Accordion, AccordionContext, Card, useAccordionButton, Button } from 'react-bootstrap'
+import { Accordion, AccordionContext, Card, useAccordionButton } from 'react-bootstrap'
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa'
-
-var state = false;
 
 function ContextAwareToggle({ children, eventKey, callback, name }) {
     const { activeEventKey } = useContext(AccordionContext);
@@ -33,7 +31,7 @@ function ContextAwareToggle({ children, eventKey, callback, name }) {
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <div>
-                {activities.map((activity) => (<div> {activity} </div>))}
+                {activities.map((activity, i) => (<div key={i}> {activity} </div>))}
             </div>
           </Accordion.Collapse>
         </Card>

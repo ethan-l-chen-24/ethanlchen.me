@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons/lib'
 
 const Title = () => {
     return (
-        <div id="title" className='center'>
+        <div id="title">
             <Container>
                 <Row className='main'>
                     <Col xs={6} className='rightAligned'>

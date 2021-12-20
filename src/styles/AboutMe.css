@@ -6,13 +6,40 @@
 #aboutMe {
     background-color: #d8cfc4;
     width: 100%;
+    padding: 100px 0px 150px 0px;
 }
 
 #aboutMeParagraph {
-    padding: 0px 10% 0px 10%;
+    padding: 0px 5% 0px 5%;
+    margin: 30px -10px 40px 0px;
 }
 
 #aboutMeHR {
     height: 2px;
     color: black;
+}
+
+#profile {
+        background-image: url('../images/profile.jpeg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -70px;
+        background-size: 300px;
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0px 3px 10px black;
+        border-radius: 50%;
+        transition: transform 0.5s;
+}
+
+#profile:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+  }
+
+.profileDisplay {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

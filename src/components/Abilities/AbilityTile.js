@@ -12,11 +12,11 @@ const AbilityTile = ( { skill } ) => {
                     {skill.name}
                 </Col>
                 <Col xs={6} className='scoreCol'>
-                    {[...Array(skill.score)].map(() => 
-                        (<span className="fullCircle"></span>)
+                    {[...Array(skill.score)].map((i) => 
+                        (<span key={i} className="fullCircle"></span>)
                     )}
-                    {[...Array(alt)].map(() => 
-                        (<span className="emptyCircle"></span>)
+                    {[...Array(alt)].map((i) => 
+                        (<span key={i} className="emptyCircle"></span>)
                     )}
                 </Col>
             </Row>

@@ -14,8 +14,8 @@ const Contact = () => {
             <hr id="contactMeHR"/>
             <Container id="logos">
                 <Row>
-                    { ContactData.map((contact) => 
-                    (<Col xs={6} lg={3} className='center'>
+                    { ContactData.map((contact, i) => 
+                    (<Col key={i} xs={6} lg={3} className='center'>
                         <ContactTile name={contact.name} link={contact.link} icon={contact.icon}/>
                     </Col>)
                     )}

@@ -11,8 +11,8 @@ const Languages = () => {
                 <div>- Lily Aldrin</div>
             </p>
             <hr id="abilitiesHR"/>
-            { AbilitiesData.map((language) =>
-                (<AbilitiesSection sectionName={language.sectionName} skills={language.skills} />)
+            { AbilitiesData.map((language, i) =>
+                (<AbilitiesSection key={i} sectionName={language.sectionName} skills={language.skills} />)
             )}
         </section>
     )

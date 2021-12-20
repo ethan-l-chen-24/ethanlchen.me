@@ -9,9 +9,14 @@ function App() {
     threshold: 0.2
   }
 
-  var [sideBarOpen, setSideBar] = useState(false)
-  const openSidebar = () => {setSideBar(true)}
+  var [sideBarOpen, setSideBar] = useState(true)
+  var [noClose, setNoClose] = useState(true)
+  const openSidebar = () => {
+    setSideBar(true)
+    setNoClose(false)
+  }
   const closeSidebar = () => {setSideBar(false)}
+  const endNoClose = () => {setNoClose(false)}
 
   const [aboutMe, aboutMeView] = useInView(options);
   const [education, educationView] = useInView(options);
@@ -34,14 +39,18 @@ function App() {
     } else if(abilitiesView) {
       return 'Abilities'
     } else {
-      if(sideBarOpen) setSideBar(false)
+      if(sideBarOpen) {
+        setSideBar(false)
+      } if(!noClose) {
+        setNoClose(true)
+      }
       return 'Title'
     }
   }
 
   return (
       <div className="App">
-        <Navbar active={getActive()} sideBarOpen={sideBarOpen} openSidebar={openSidebar} closeSidebar={closeSidebar} />
+        <Navbar active={getActive()} sideBarOpen={sideBarOpen} openSidebar={openSidebar} closeSidebar={closeSidebar} noClose={noClose} endNoClose={endNoClose} />
         <Body 
           aboutMe={aboutMe}
           education={education}

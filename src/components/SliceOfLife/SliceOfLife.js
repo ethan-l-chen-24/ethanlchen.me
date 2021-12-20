@@ -12,8 +12,8 @@ const SliceOfLife = () => {
                     <div>- Marshall Erickson&nbsp;&nbsp;</div>
                 </p>
                 <hr id="sliceOfLifeHR"/>
-                {SliceOfLifeData.map((activity) => 
-                (<SliceOfLifeTile type={activity.type} description={activity.description} images={activity.images}/>)
+                {SliceOfLifeData.map((activity, i) => 
+                    (<SliceOfLifeTile key={i} type={activity.type} description={activity.description} images={activity.images}/>)
                 )}
             </section>
     )
