@@ -6,10 +6,10 @@ const AboutMe = () => {
     return (
         <section id="aboutMe">
             <h1>About Me</h1>
-            <p className='quote'>
+            <div className='quote'>
                     <i>“When I get sad, I stop being sad and be awesome instead. True story.”</i>
                     <div>- Barney Stinson&nbsp;&nbsp;</div>
-            </p>
+            </div>
             <hr id="aboutMeHR"/>
             <Container>
                 <Row>

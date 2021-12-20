@@ -7,10 +7,10 @@ const SliceOfLife = () => {
             <section id="sliceOfLife">
                 <div className="fall half-opacity"></div>
                 <h1>Slice Of Life</h1>
-                <p className='quote'>
+                <div className='quote'>
                     <i>“Look at us, riding around in a limo, eating hot dogs… It’s like we’re the president.”</i>
                     <div>- Marshall Erickson&nbsp;&nbsp;</div>
-                </p>
+                </div>
                 <hr id="sliceOfLifeHR"/>
                 {SliceOfLifeData.map((activity, i) => 
                     (<SliceOfLifeTile key={i} type={activity.type} description={activity.description} images={activity.images}/>)

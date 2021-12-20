@@ -7,10 +7,10 @@ const Projects = () => {
     return (
         <section id="projects">
             <h1>Projects</h1>  
-            <p className='quote'>
+            <div className='quote'>
                 <i>“I don’t know where I’m gonna be in five years. I don’t wanna know. I want my life to be an adventure.”</i>
                 <div>- Robin Scherbatsky&nbsp;&nbsp;</div>
-            </p>
+            </div>
             <hr id="projectsHR"/>
              <Container>
                 <Row>

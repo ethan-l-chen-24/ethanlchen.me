@@ -7,10 +7,10 @@ const Contact = () => {
     return (
         <section id="contactMe">
             <h1>Contact Me</h1>
-            <p className='quote'>
+            <div className='quote'>
                 <i>"Hello... Goodbye!"</i>
                 <div>- Ranjit&nbsp;&nbsp;</div>
-            </p>
+            </div>
             <hr id="contactMeHR"/>
             <Container id="logos">
                 <Row>

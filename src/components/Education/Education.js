@@ -7,10 +7,10 @@ const Education = () => {
     return (
         <section id="education">
             <h1>Education</h1>
-            <p className='quote'>
+            <div className='quote'>
                 <i>“It’s funny. Sometimes you walk into a place and you know you’re exactly where you’re supposed to be.”</i>
                 <div>- Ted Mosby&nbsp;&nbsp;</div>
-            </p>
+            </div>
             <hr id="educationHR"/>
             <Container>
                 <Row>
