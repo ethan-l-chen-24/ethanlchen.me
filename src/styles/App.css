@@ -96,3 +96,9 @@ u {
         text-underline-offset: 8px;
     }
 }
+
+@media (max-width: 576px) {
+    section {
+        padding: 100px 20px;
+    }
+}

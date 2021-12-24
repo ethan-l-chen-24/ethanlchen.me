@@ -121,7 +121,7 @@
     background-image: url('../images/coasters/goliath.JPG');
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     .seniorPhoto, .rain, .peaceSign, .parkCity, .tahoe,
     .heavenly, .sunapee, .sfga, .flightDeck, .goliath {
         height: 200px;
