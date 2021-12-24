@@ -91,11 +91,13 @@
 @media (max-width: 576px) {
 
     .introducing, .name, .resume {
-        font-size: 10em;
+        font-size: 12em;
+        text-align: center;
+        transform: none;
     }
 
     .resume {
-        top: 20px;
+        display: none;
     }
 }
 

@@ -8,7 +8,7 @@ const Title = () => {
         <div id="title">
             <Container>
                 <Row className='main'>
-                    <Col xs={6} className='rightAligned'>
+                    <Col xs={12} sm={6} className='rightAligned'>
                         <div className='introducing defaultCursor'>
                             <div>
                                 <span className='hoverChangeOrange'>M</span>
@@ -33,7 +33,7 @@ const Title = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={6} className='sideText'>
+                    <Col xs={12} sm={6} className='sideText'>
                         <div className='resume defaultCursor'>
                             <div>
                                 <span className='disappear'>v</span>
