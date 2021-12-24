@@ -1,5 +1,5 @@
 #projects {
-    background-color: #e4d0bc;
+    background-color: #d8cfc4;
 }
 
 #projectsHR {
@@ -8,24 +8,98 @@
 }
 
 .projectBox {
-    height: auto;
-    width: auto;
-    background-color: #1b9ce5;
-    color: white;
+    color: black;
     margin: 20px;
     padding: 30px;
+    height: 400px;
+    position: relative;
 }
+
+.projectImage {
+    background-position: center;
+    background-size: 800px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    transition: 0.7s;
+}
+
+.projectImageHover {
+    opacity: 30%;
+    background-position-x: 65%;
+    transition: 0.7s;
+}
+
+.ethanlchen {
+    background-image: url('../images/projects/ethanlchen.png');
+    background-size: cover;
+}
+
+.simon {
+    background-image: url('../images/projects/simon.jpg');
+    background-size: cover;
+}
+
+.pandemic {
+    background-image: url('../images/projects/pandemic.png');
+    background-size: cover;
+}
+
+.sudoku {
+    background-image: url('../images/projects/sudoku.png');
+    background-size: cover;
+}
+
+.projectImageHover.ethanlchen {
+    background-image: url('../images/projects/gifs/ethanlchen.gif');
+    background-size: cover;
+}
+
+.projectImageHover.simon {
+    background-image: url('../images/projects/gifs/simon.gif');
+    background-size: cover;
+}
+
+.projectImageHover.pandemic {
+    background-image: url('../images/projects/gifs/pandemic.gif');
+    background-size: cover;
+}
+
+.projectImageHover.sudoku {
+    background-image: url('../images/projects/gifs/sudoku.gif');
+    background-size: cover;
+}
+
 
 .projectTileHR {
     margin: 5px auto 5px auto;
     width: 100%;
 }
 
+.projectTitleBox {
+    background-color: #1b9ce5;
+
+}
+
 .repoLink {
-    background-color: white;
+    display: block;
+    background-color: #1b9ce5;
     color: black;
-    text-underline-offset: 3px;
-    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.repoLink:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+    color: black;
+    text-decoration: underline;
 }
 
 .middleBar {
@@ -39,4 +113,8 @@
 
 .projectDate {
     font-size: 1.5em;
+}
+
+.repoLink.invisible {
+    display: hidden;
 }

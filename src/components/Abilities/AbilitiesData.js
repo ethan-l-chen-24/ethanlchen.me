@@ -5,62 +5,62 @@ const AbilitiesData = [
             {
                 name: 'Java',
                 score: 5,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "5"
             },
             {
                 name: 'C',
                 score: 5,
-                description: 'Description'
+                years: "1"
             },
             {
                 name: 'Python',
                 score: 4,
-                description: 'Description'
+                years: "2"
             },
             {
                 name: 'Javascript',
                 score: 3,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "< 1"
             },
             {
                 name: 'HTML5',
                 score: 3,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "< 1"
             },
             {
                 name: 'React',
                 score: 3,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "< 1"
             },
             {
                 name: 'Bash',
                 score: 3,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "1"
             },
             {
                 name: 'JSON',
                 score: 3,
-                description: 'Description'
+                years: "< 1"
             },
             {
                 name: 'CSS3',
-                score: 2,
-                description: 'TA for COSC 10 for 3 quarters'
+                score: 3,
+                years: "< 1"
             },
             {
                 name: 'Swift',
                 score: 2,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "< 1"
             },
             {
                 name: 'Ruby',
                 score: 1,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "< 1"
             },
             {
                 name: 'Verilog',
                 score: 1,
-                description: 'TA for COSC 10 for 3 quarters'
+                years: "1"
             }
         ]
     },
@@ -71,42 +71,42 @@ const AbilitiesData = [
             {
                 name: 'Git/Git Flow',
                 score: 5,
-                description: 'Description'
+                years: "3"
             },
             {
                 name: 'Microsoft Office',
                 score: 5,
-                description: 'Description'
+                years: "6"
             },
             {
                 name: 'VSCode',
                 score: 4,
-                description: 'Description'
+                years: "1"
             },
             {
                 name: 'IntelliJ Idea',
                 score: 4,
-                description: 'Description'
+                years: "3"
             },
             {
                 name: 'Sublime Text',
                 score: 2,
-                description: 'Description'
+                years: "< 1"
             },
             {
                 name: 'LaTeX',
                 score: 2,
-                description: 'Description'
+                years: "< 1"
             },
             {
                 name: 'XCode',
                 score: 1,
-                description: 'Description'
+                years: "< 1"
             },
             {
                 name: 'Matlab',
                 score: 1,
-                description: 'Description'
+                years: "< 1"
             }
         ]
     },
@@ -117,22 +117,22 @@ const AbilitiesData = [
             {
                 name: 'Leadership',
                 score: 5,
-                description: 'Description'
+                years: 'Sports Captain & Project Manager'
             },
             {
                 name: 'Teaching',
                 score: 5,
-                description: 'Description'
+                years: 'TA/Tutoring'
             },
             {
                 name: 'Willingness to Learn',
                 score: 5,
-                description: 'Description'
+                years: 'This Website!'
             },
             {
                 name: 'Communication',
                 score: 4,
-                description: 'Description'
+                years: 'Group Project Experience'
             }
         ]
     }

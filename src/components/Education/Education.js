@@ -15,7 +15,7 @@ const Education = () => {
             <Container>
                 <Row>
                     { EducationData.map((school, i) => 
-                    (<SchoolTile key={i} school={school.school} logo={school.logo} location={school.location} years={school.years} degree={school.degree} activities={school.activities} classes={school.classes} />)
+                    (<SchoolTile key={i} school={school.school} logo={school.logo} location={school.location} years={school.years} degree={school.degree} activities={school.activities} classes={school.classes} website={school.website} />)
                     )}  
                 </Row>
             </Container>

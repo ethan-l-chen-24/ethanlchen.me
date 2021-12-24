@@ -9,7 +9,7 @@ const AbilitiesSection = ( { sectionName, skills } ) => {
             <h2 className='skillHeader'><u>{ sectionName }</u></h2>
             <Row>
                 {skills.map((skill, i) =>
-                    (<span key={i}><AbilityTile skill={skill}/></span>)
+                    (<AbilityTile key={i} skill={skill} category={sectionName} />)
                     
                 )}
             </Row>

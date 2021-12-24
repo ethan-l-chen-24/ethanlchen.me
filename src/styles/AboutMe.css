@@ -43,3 +43,21 @@
     align-items: center;
     display: flex;
 }
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #profile {
+        background-size: 33vw;
+        height: 33vw;
+        width: 33vw;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    #profile {
+        background-size: 400px;
+        height: 400px;
+        width: 400px;
+    }
+}

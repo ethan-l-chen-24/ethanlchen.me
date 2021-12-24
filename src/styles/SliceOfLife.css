@@ -3,7 +3,7 @@
 #sliceOfLife {
     color: black;
     opacity: 100%;
-    padding: 100px 30px;
+    padding: 150px 30px 100px 30px;
     position: relative;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .solDescription {
-    background-color: #ff8c00;
+    background-color: #cc860e;
     color: white;
 }
 
@@ -23,7 +23,7 @@
 
 .fall {
     background-position: center;
-    background-size: 2400px;
+    background-size: cover;
     background-image: url("../images/Gile.jpeg");
     background-repeat: no-repeat;
     opacity: 60%;
@@ -45,3 +45,142 @@
         width: 100%;
     }
 }
+
+.seniorPhoto, .rain, .peaceSign, .parkCity, .tahoe,
+.heavenly, .sunapee, .sfga, .flightDeck, .goliath {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    box-shadow: 0px 3px 10px black;
+    transition: all 0.5s;
+}
+
+.seniorPhoto:hover, .rain:hover, .peaceSign:hover, .parkCity:hover, .tahoe:hover,
+.heavenly:hover, .sunapee:hover, .sfga:hover, .flightDeck:hover, .goliath:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.imageRow {
+    justify-content: center;
+    align-items: center;
+}
+
+.seniorPhoto {
+    width: 300px;
+    background-size: 300px;
+    background-image: url('../images/piano/seniorphoto.jpg');
+}
+
+.rain {
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+}
+
+.peaceSign {
+    width: 480px;
+    background-size: 480px;
+    background-image: url('../images/piano/peaceSign.png');
+}
+
+.parkCity {
+    width: 235px;
+    background-size: 240px;
+    background-image: url('../images/skiing/parkcity.JPG');
+}
+
+.tahoe {
+    width: 500px;
+    background-size: 650px;
+    background-image: url('../images/skiing/tahoe.jpg');
+}
+
+.sunapee {
+    width: 400px;
+    background-size: 500px;
+    background-image: url('../images/skiing/sunapee.JPG');
+}
+
+.sfga {
+    width: 400px;
+    background-size: 500px;
+    background-image: url('../images/coasters/sfga.JPG');
+}
+
+.flightDeck {
+    width: 400px;
+    background-size: 500px;
+    background-image: url('../images/coasters/flightDeck.jpg');
+}
+
+.goliath {
+    width: 400px;
+    background-size: 450px;
+    background-image: url('../images/coasters/goliath.JPG');
+}
+
+@media (max-width: 991px) {
+    .seniorPhoto, .rain, .peaceSign, .parkCity, .tahoe,
+    .heavenly, .sunapee, .sfga, .flightDeck, .goliath {
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 8px;
+    }
+
+    .seniorPhoto {
+        width: 200px;
+        background-size: 200px;
+        background-image: url('../images/piano/seniorphoto.jpg');
+    }
+    
+    .rain {
+        width: 266px;
+        height: 200px;
+    }
+    
+    .peaceSign {
+        width: 320px;
+        background-size: 320px;
+        background-image: url('../images/piano/peaceSign.png');
+    }
+    
+    .parkCity {
+        width: 156px;
+        background-size: 160px;
+        background-image: url('../images/skiing/parkcity.JPG');
+    }
+    
+    .tahoe {
+        width: 333px;
+        background-size: 433px;
+        background-image: url('../images/skiing/tahoe.jpg');
+    }
+    
+    .sunapee {
+        width: 266px;
+        background-size: 333px;
+        background-image: url('../images/skiing/sunapee.JPG');
+    }
+    
+    .sfga {
+        width: 266px;
+        background-size: 333px;
+        background-image: url('../images/coasters/sfga.JPG');
+    }
+    
+    .flightDeck {
+        width: 266px;
+        background-size: 333px;
+        background-image: url('../images/coasters/flightDeck.jpg');
+    }
+    
+    .goliath {
+        width: 266px;
+        background-size: 300px;
+        background-image: url('../images/coasters/goliath.JPG');
+    }
+}
+

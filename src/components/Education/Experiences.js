@@ -31,7 +31,7 @@ function ContextAwareToggle({ children, eventKey, callback, name }) {
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <div>
-                {activities.map((activity, i) => (<div key={i}> {activity} </div>))}
+                {activities.map((activity, i) => (<div key={i} className="dropdownContents"> {activity} </div>))}
             </div>
           </Accordion.Collapse>
         </Card>

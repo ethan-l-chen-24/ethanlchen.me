@@ -8,14 +8,13 @@ Style Languages
 Style Projects
 Style Slice of Life
 Style about me
-
-`To Do`
-
 Create Navbar
 Style Education
 Finish Header Image/Page
 Move Abilites in a bit
+
+`To Do`
+
 Add Slice Of Life Pictures
-Choose Better Colors
-Learn 3D Models
-Learn Any Other Cool Effects
+Make years appear when you hover over coding skills
+perfect for mobile

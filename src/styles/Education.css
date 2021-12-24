@@ -40,7 +40,6 @@
 .experiences, .card-header, .card-body{
     background-color: #cf8404;
     border: none;
-
 }
 
 .experiencesDropdown {
@@ -141,3 +140,7 @@ div .educationHR {
     background-image: url('../images/dartLogo.png');
 }
 
+
+.dropdownContents {
+    font-size: 0.75em;
+}

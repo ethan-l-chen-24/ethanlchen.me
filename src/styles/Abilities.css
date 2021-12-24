@@ -9,8 +9,8 @@
 }
 
 .emptyCircle {
-    width: 12px;
-    height: 12px;
+    width: 0.6em;
+    height: 0.6em;
     margin: 2px;
     border-radius: 50%;
     border: 1px #1b9ce5 solid;
@@ -18,8 +18,8 @@
 }
 
 .fullCircle {
-    width: 12px;
-    height: 12px;
+    width: 0.6em;
+    height: 0.6em;
     margin: 2px;
     border-radius: 50%;
     background-color: #1b9ce5;
@@ -27,7 +27,19 @@
     display: inline-block;
 }
 
-@media (max-width: 991px) {
+.skillCol {
+    font-size: 0.8em;
+    align-self: center;
+}
+
+
+@media (max-width: 576px) {
+    .categories {
+        margin-left: 17.5%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
     .categories {
         margin-left: 25%;
     }

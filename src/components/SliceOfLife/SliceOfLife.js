@@ -13,7 +13,7 @@ const SliceOfLife = () => {
                 </div>
                 <hr id="sliceOfLifeHR"/>
                 {SliceOfLifeData.map((activity, i) => 
-                    (<SliceOfLifeTile key={i} type={activity.type} description={activity.description} images={activity.images}/>)
+                    (<SliceOfLifeTile key={i} type={activity.type} description={activity.description} images={activity.images} />)
                 )}
             </section>
     )

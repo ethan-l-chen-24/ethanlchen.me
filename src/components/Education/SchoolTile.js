@@ -2,13 +2,16 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Experiences from './Experiences'
 
-const SchoolTile = ( { school, logo, location, years, degree, activities, classes } ) => {
+const SchoolTile = ( { school, logo, location, years, degree, activities, classes, website } ) => {
     return (
+        
         <Col xs={12} xl={6}>
             <div className='boxed schoolBox'>
                 <Row>
                     <Col xs={12} sm={6} md={5} lg={4} xl={5} className='center'>
+                        <a href={website}>
                         <div id={logo} className="schoolLogo"></div>
+                        </a>
                     </Col>
                     <Col xs={12} sm={6} md={7} lg={8} xl={7} className='leftBorder centerText'>
                         <Row>
@@ -25,16 +28,17 @@ const SchoolTile = ( { school, logo, location, years, degree, activities, classe
                         <div> { degree } </div>
                         <div className='invisibleSm'> 
                             <Experiences activities={activities} name='Activities'/> 
-                            <Experiences activities={classes} name='Relevant Coursework'/>
+                            <Experiences activities={classes} name='Notable Coursework'/>
                         </div>
                     </Col>
                 </Row>
                 <Row className='center visibleSm bottomDropdowns'>
                         <Experiences activities={activities} name='Activities'/>
-                        <Experiences activities={classes} name='Relevant Coursework'/>
+                        <Experiences activities={classes} name='Notable Coursework'/>
                     </Row>
             </div>
         </Col>
+        
     )
 }
 
