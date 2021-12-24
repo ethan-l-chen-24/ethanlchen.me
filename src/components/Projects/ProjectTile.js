@@ -49,7 +49,7 @@ const ProjectTile = ( { name, languages, date, github, description, image } ) =>
 
     const getProjectDescription = () => {
        return (
-        <div className={focused ? 'projectBox' : 'projectBox center'}>
+        <div className={focused ? '' : 'center'}>
             <div className={focused ? 'nameDateContainer' : 'nameDateContainer boxed projectTitleBox'}>
                 <div className='projectName'><b>{name}</b></div>
                 <div className='projectDate'><i>{date}</i></div>
