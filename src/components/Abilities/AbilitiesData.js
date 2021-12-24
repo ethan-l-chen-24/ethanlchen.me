@@ -9,7 +9,7 @@ const AbilitiesData = [
             },
             {
                 name: 'C',
-                score: 5,
+                score: 4,
                 years: "1"
             },
             {

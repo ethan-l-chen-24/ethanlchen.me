@@ -29,6 +29,22 @@ section > h1 {
     font-family: LG, 'serif';
 }
 
+section > h1:hover {
+    animation: colorChange 5s linear 0s infinite;
+}
+
+@keyframes colorChange {
+    0%   {color: black;}
+    10%  {color: purple;}
+    20%  {color: red;}
+    30%  {color: #cf8404;}
+    40%  {color: yellow;}
+    50%  {color: green;}
+    60%  {color: #1b9ce5;}
+    80%  {color: #061012;}
+    100% {color: black;}
+  }
+
 p {
     text-align: center;
     font-size: 1.2em;

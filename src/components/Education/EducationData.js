@@ -25,7 +25,7 @@ const EducationData = [
         website: 'https://deerfield.edu/',
         location: 'Deerfield, MA',
         years: 'Sep 2016 - June 2020',
-        degree: 'Robert Crowe Award Winner; STEM Focus',
+        degree: 'Robert Crowe Award Winner (Valedictorian)',
         activities: [
             'Cum Laude Society | Member',
             'Peer Tutors | Head Tutor',
