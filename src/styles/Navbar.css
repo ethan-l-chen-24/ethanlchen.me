@@ -91,7 +91,7 @@
 
 .sidebar {
     background: #222629;
-    opacity: 90%;
+    opacity: 0.9;
     height: calc(100vh - 80px);
     z-index: 10;
     position: fixed;

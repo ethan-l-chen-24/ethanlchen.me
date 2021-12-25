@@ -2,7 +2,7 @@
 
 #sliceOfLife {
     color: black;
-    opacity: 100%;
+    opacity: 1.0;
     padding: 150px 30px 100px 30px;
     position: relative;
 }
@@ -26,7 +26,7 @@
     background-size: cover;
     background-image: url("../images/Gile.jpeg");
     background-repeat: no-repeat;
-    opacity: 60%;
+    opacity: 0.6;
     top: 0;
     left: 0;
     bottom: 0;

@@ -15,7 +15,7 @@ hr {
     width: 80%;
     height: 2px;
     margin: 30px auto 30px auto;
-    opacity: 100%
+    opacity: 1.0;
 }
 
 section {
