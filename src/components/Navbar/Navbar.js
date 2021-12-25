@@ -60,22 +60,22 @@ const Navbar = ( { active, sideBarOpen, openSidebar, closeSidebar, noClose, endN
                     : <FaBars className='bars' onClick={openSidebar} />}
                     
                     <div className='navMenu'>
-                        <a href="#aboutMe" className='navLink'>
+                        <a href="#aboutMe" className={'navLink' + isCurrent('About Me')}>
                             About Me
                         </a>
-                        <a href="#education" className='navLink'>
+                        <a href="#education" className={'navLink' + isCurrent('Education')}>
                             Education
                         </a>
-                        <a href="#projects" className='navLink'>
+                        <a href="#projects" className={'navLink' + isCurrent('Projects')}>
                             Projects
                         </a>
-                        <a href="#abilities" className='navLink'>
+                        <a href="#abilities" className={'navLink' + isCurrent('Abilities')}>
                             Abilities
                         </a>
-                        <a href="#sliceOfLife" className='navLink'>
+                        <a href="#sliceOfLife" className={'navLink' + isCurrent('Slice of Life')}>
                             Slice of Life
                         </a>
-                        <a href="#contactMe" className='navLink contactMeLink'>
+                        <a href="#contactMe" className={'navLink contactMeLink' + isCurrent('Contact Me')}>
                             Contact Me
                         </a>
                     </div>

@@ -155,3 +155,11 @@
     background-color: #cf8404;
     color: white;
 }
+
+.navLink.current {
+    color: #1b9ce5;
+}
+
+.navLink.contactMeLink.current {
+    color: #cf8404;
+}

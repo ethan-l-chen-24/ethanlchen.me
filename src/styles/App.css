@@ -34,11 +34,9 @@ section > h1:hover {
 }
 
 @keyframes colorChange {
-    0%   {color: black;}
     25%  {color: purple;}
     50%  {color: #cf8404;}
     75%  {color: #1b9ce5;}
-    100%  {color: #061012;}
   }
 
 p {
