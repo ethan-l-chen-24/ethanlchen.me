@@ -3,11 +3,11 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const SliceOfLifeTile = ( { type, description, images } ) => {   
 
-    const getMedia = (media) => {
+    const getMedia = (media, i) => {
         if(media.type === 'photo') {
-            return <span className={'media ' + media.link} ></span>
+            return <span key={i} className={'media ' + media.link} ></span>
         } else if(media.type === 'video') {
-            return (<iframe className={'media ' + media.link}
+            return (<iframe key={i} className={'media ' + media.link}
                 src="https://www.youtube.com/embed/q38KuSd8IU0">
             </iframe>)
         } else {
@@ -26,8 +26,8 @@ const SliceOfLifeTile = ( { type, description, images } ) => {
                 </Col>
             </Row>
             <Row className="imageRow">
-                {images.map((media) => (
-                    getMedia(media)
+                {images.map((media, i) => (
+                    getMedia(media, i)
                 ))}
             </Row>
         </Container>
