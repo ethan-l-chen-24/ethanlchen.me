@@ -1,5 +1,7 @@
 # ethanlchen.me
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60b8c52c-4b66-413d-8091-cf090842a495/deploy-status)](https://app.netlify.com/sites/confident-shaw-f848a1/deploys)
+
 This is my personal website made using HTML/CSS, Javascript, and `create-react-app`. This was the culminating project of my month-long persona front-end crash course (with more to come in the future)!
 
 [Visit the website!](https://ethanlchen.me/)
