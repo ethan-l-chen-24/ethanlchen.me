@@ -58,7 +58,7 @@
 
 .seniorPhoto:hover, .rain:hover, .peaceSign:hover, .parkCity:hover, .tahoe:hover,
 .heavenly:hover, .sunapee:hover, .sfga:hover, .flightDeck:hover, .goliath:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     transition: all 0.5s;
 }
 

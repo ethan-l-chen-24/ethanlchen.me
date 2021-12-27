@@ -7,7 +7,7 @@ import Projects from './Projects/Projects'
 import SliceOfLife from './SliceOfLife/SliceOfLife'
 import Contact from './Contact/Contact.js'
 
-const Body = ( { aboutMe, education, projects, abilities, sliceOfLife, contactMe } ) => {
+const Body = ( { aboutMe, education, projects, abilities, sol, contactMe } ) => {
     return (
         <div>
             <Title />
@@ -27,7 +27,7 @@ const Body = ( { aboutMe, education, projects, abilities, sliceOfLife, contactMe
                 <Abilities />
             </div>
 
-            <div ref={sliceOfLife}>
+            <div ref={sol}>
                 <SliceOfLife />
             </div>
 

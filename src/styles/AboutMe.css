@@ -34,7 +34,7 @@
 }
 
 #profile:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     transition: transform 0.5s;
   }
 

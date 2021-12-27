@@ -28,8 +28,14 @@ code {
     monospace;
 }
 
+@media (max-width: 360px) {
+  body {
+    font-size: 12px;
+  }
+}
+
 /* xs */
-@media (max-width: 576px) {
+@media (min-width: 361px) and (max-width: 576px) {
   body {
     font-size: 14px;
   }

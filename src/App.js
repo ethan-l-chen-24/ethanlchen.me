@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer'
 function App() {
 
   const options = {
-    threshold: 0.2
+    threshold: 0.15
   }
 
   var [sideBarOpen, setSideBar] = useState(true)
@@ -21,9 +21,9 @@ function App() {
   const [aboutMe, aboutMeView] = useInView(options);
   const [education, educationView] = useInView(options);
   const [projects, projectsView] = useInView(options);
-  const [sliceOfLife, sliceOfLifeView] = useInView(options);
-  const [contactMe, contactMeView] = useInView(options);
   const [abilities, abilitiesView] = useInView(options);
+  const [sol, solView] = useInView(options);
+  const [contactMe, contactMeView] = useInView(options);
 
   const getActive = () => {
     if(aboutMeView) {
@@ -32,7 +32,7 @@ function App() {
       return 'Education'
     } else if(projectsView) {
       return 'Projects'
-    } else if(sliceOfLifeView) {
+    } else if(solView) {
       return 'Slice of Life'
     } else if(contactMeView) {
       return 'Contact Me'
@@ -55,7 +55,7 @@ function App() {
           aboutMe={aboutMe}
           education={education}
           projects={projects}
-          sliceOfLife={sliceOfLife}
+          sol={sol}
           contactMe={contactMe}
           abilities={abilities}
         />

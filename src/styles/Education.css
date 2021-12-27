@@ -28,7 +28,7 @@
 }
 
 .schoolLogo:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     transition: all 0.5s;
 }
 
