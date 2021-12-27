@@ -1,6 +1,6 @@
 # ethanlchen.me
 
-This is my personal website made using HTML/CSS, Javascript, and `create-react-app`. This was the culminating project of my month-long persona front-end crash course (with more still to come)!
+This is my personal website made using HTML/CSS, Javascript, and `create-react-app`. This was the culminating project of my month-long persona front-end crash course (with more to come in the future)!
 
 [Visit the website!](https://ethanlchen.me/)
 
