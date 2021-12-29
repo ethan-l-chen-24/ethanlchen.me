@@ -48,8 +48,13 @@ const AbilitiesData = [
                 years: "< 1"
             },
             {
-                name: 'Swift',
+                name: 'C++',
                 score: 2,
+                years: "< 1"
+            },
+            {
+                name: 'Swift',
+                score: 1,
                 years: "< 1"
             },
             {
