@@ -9,7 +9,7 @@ const SchoolTile = ( { school, logo, location, years, degree, activities, classe
             <div className='boxed schoolBox'>
                 <Row>
                     <Col xs={12} sm={6} md={5} lg={4} xl={5} className='center'>
-                        <a href={website}>
+                        <a href={website} target="_blank">
                         <div id={logo} className="schoolLogo"></div>
                         </a>
                     </Col>

@@ -15,7 +15,7 @@ const ProjectTile = ( { name, languages, date, github, description, image } ) =>
 
     const getRepoBox = (classname) => {
         if(github !== '') {
-            return (<a className={"boxed repoLink" + classname} href={github}  >
+            return (<a className={"boxed repoLink" + classname} href={github} target="_blank" >
                     Repo
                 </a>)
         } else {
