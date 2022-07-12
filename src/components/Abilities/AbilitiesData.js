@@ -9,7 +9,7 @@ const AbilitiesData = [
             },
             {
                 name: 'Ruby',
-                score: 1,
+                score: 5,
                 years: "1"
             },
             {
@@ -54,6 +54,11 @@ const AbilitiesData = [
             },
             {
                 name: 'CSS3',
+                score: 3,
+                years: "< 1"
+            },
+            {
+                name: 'VHDL',
                 score: 3,
                 years: "< 1"
             },
