@@ -89,7 +89,7 @@ const AbilitiesData = [
                 years: "3"
             },
             {
-                name: 'Docker/Docker-Compose',
+                name: 'Docker',
                 score: 5,
                 years: "< 1"
             },
