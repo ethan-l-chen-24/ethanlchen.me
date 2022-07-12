@@ -8,6 +8,11 @@ const AbilitiesData = [
                 years: "5"
             },
             {
+                name: 'Ruby',
+                score: 1,
+                years: "1"
+            },
+            {
                 name: 'C',
                 score: 4,
                 years: "1"
@@ -16,6 +21,11 @@ const AbilitiesData = [
                 name: 'Python',
                 score: 4,
                 years: "2"
+            },
+            {
+                name: 'Ruby on Rails',
+                score: 4,
+                years: "< 1"
             },
             {
                 name: 'Javascript',
@@ -58,11 +68,6 @@ const AbilitiesData = [
                 years: "< 1"
             },
             {
-                name: 'Ruby',
-                score: 1,
-                years: "< 1"
-            },
-            {
                 name: 'Verilog',
                 score: 1,
                 years: "1"
@@ -77,6 +82,11 @@ const AbilitiesData = [
                 name: 'Git/Git Flow',
                 score: 5,
                 years: "3"
+            },
+            {
+                name: 'Docker/Docker-Compose',
+                score: 5,
+                years: "< 1"
             },
             {
                 name: 'Microsoft Office',
@@ -100,6 +110,11 @@ const AbilitiesData = [
             },
             {
                 name: 'LaTeX',
+                score: 2,
+                years: "< 1"
+            },
+            {
+                name: 'Kubernetes',
                 score: 2,
                 years: "< 1"
             },
