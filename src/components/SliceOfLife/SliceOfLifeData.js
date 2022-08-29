@@ -15,8 +15,8 @@ const SliceOfLifeData = [
             },
             {
             type: 'photo',
-            link: 'peaceSign',
-            alt: 'Arrangement of Peace Sign by Kenshi Yonezu'
+            link: 'dreamsOfChildhood',
+            alt: 'Three-part composition inspired by Joe Hisaishi'
             }
         ]
     },

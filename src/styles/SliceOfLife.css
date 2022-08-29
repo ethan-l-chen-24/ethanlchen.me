@@ -46,7 +46,7 @@
     }
 }
 
-.seniorPhoto, .rain, .peaceSign, .parkCity, .tahoe,
+.seniorPhoto, .rain, .dreamsOfChildhood, .parkCity, .tahoe,
 .heavenly, .sunapee, .sfga, .flightDeck, .goliath {
     height: 300px;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@
     transition: all 0.5s;
 }
 
-.seniorPhoto:hover, .rain:hover, .peaceSign:hover, .parkCity:hover, .tahoe:hover,
+.seniorPhoto:hover, .rain:hover, .dreamsOfChildhood:hover, .parkCity:hover, .tahoe:hover,
 .heavenly:hover, .sunapee:hover, .sfga:hover, .flightDeck:hover, .goliath:hover {
     transform: translateY(-10px);
     transition: all 0.5s;
@@ -79,10 +79,10 @@
     padding: 0px;
 }
 
-.peaceSign {
+.dreamsOfChildhood {
     width: 480px;
     background-size: 480px;
-    background-image: url('../images/piano/peaceSign.png');
+    background-image: url('../images/piano/dreamsOfChildhood.png');
 }
 
 .parkCity {
@@ -122,7 +122,7 @@
 }
 
 @media (max-width: 768px) {
-    .seniorPhoto, .rain, .peaceSign, .parkCity, .tahoe,
+    .seniorPhoto, .rain, .dreamsOfChildhood, .parkCity, .tahoe,
     .heavenly, .sunapee, .sfga, .flightDeck, .goliath {
         height: 200px;
         background-repeat: no-repeat;
@@ -141,10 +141,10 @@
         height: 200px;
     }
     
-    .peaceSign {
+    .dreamsOfChildhood {
         width: 320px;
         background-size: 320px;
-        background-image: url('../images/piano/peaceSign.png');
+        background-image: url('../images/piano/dreamsOfChildhood.png');
     }
     
     .parkCity {
