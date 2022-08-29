@@ -13,6 +13,11 @@ const AbilitiesData = [
                 years: "1"
             },
             {
+                name: 'VHDL',
+                score: 5,
+                years: "< 1"
+            },
+            {
                 name: 'C',
                 score: 4,
                 years: "1"
@@ -54,11 +59,6 @@ const AbilitiesData = [
             },
             {
                 name: 'CSS3',
-                score: 3,
-                years: "< 1"
-            },
-            {
-                name: 'VHDL',
                 score: 3,
                 years: "< 1"
             },
@@ -109,6 +109,11 @@ const AbilitiesData = [
                 years: "3"
             },
             {
+                name: 'MatLab',
+                score: 3,
+                years: "< 1"
+            },
+            {
                 name: 'Sublime Text',
                 score: 2,
                 years: "< 1"
@@ -125,11 +130,6 @@ const AbilitiesData = [
             },
             {
                 name: 'XCode',
-                score: 1,
-                years: "< 1"
-            },
-            {
-                name: 'Matlab',
                 score: 1,
                 years: "< 1"
             }

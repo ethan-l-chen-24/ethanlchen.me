@@ -57,6 +57,16 @@
     background-size: cover;
 }
 
+.morse {
+    background-image: url('../images/projects/morse.png');
+    background-size: cover;
+}
+
+.ffAlgos {
+    background-image: url('../images/projects/ffAlgos.png');
+    background-size: cover;
+}
+
 .projectImageHover.ethanlchen {
     background-image: url('../images/projects/gifs/ethanlchen.gif');
     background-size: cover;
@@ -74,6 +84,16 @@
 
 .projectImageHover.sudoku {
     background-image: url('../images/projects/gifs/sudoku.gif');
+    background-size: cover;
+}
+
+.projectImageHover.ffAlgos {
+    background-image: url('../images/projects/gifs/ffAlgos.gif');
+    background-size: cover;
+}
+
+.projectImageHover.morse {
+    background-image: url('../images/projects/gifs/morse.gif');
     background-size: cover;
 }
 

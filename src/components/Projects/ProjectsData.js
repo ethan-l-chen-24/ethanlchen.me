@@ -1,5 +1,16 @@
 const ProjectsData = [
     {
+        name: 'Morse Code Converter',
+        languages: [
+            'VHDL'
+        ],
+        date: 'Aug 2022',
+        github: 'https://github.com/ethan-l-chen-24/Morse-Code-Converter',
+        image: 'morse',
+        description:
+            'A keyboard-to-output morse code converter'
+    },
+    {
         name: 'ethanlchen.me',
         languages: [
             'React',
@@ -24,6 +35,17 @@ const ProjectsData = [
         image: 'sudoku',
         description: 
             'A program that creates and solves a 4x4, 9x9, or 16x16 sudoku board'
+    },
+    {
+        name: 'Frontier Finding Algorithms',
+        languages: [
+            'Java'
+        ],
+        date: 'July 2021',
+        github: 'https://github.com/ethan-l-chen-24/Reality-And-Robotics-Lab-S21',
+        image: 'ffAlgos',
+        description:
+            'My research on frontier-finding algorithms with the Reality and Robotics Lab!'
     },
     {
         name: 'Pandemic',
