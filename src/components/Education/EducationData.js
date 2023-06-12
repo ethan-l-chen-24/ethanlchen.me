@@ -14,9 +14,9 @@ const EducationData = [
         ],
         classes: [
             'COSC10: Object-Oriented Programming',
-            'COSC30: Discrete Math in CS',
+            'CSCI3160: Introduction to Algorithms',
             'COSC50: Software Design and Implementation',
-            'ENGS31: Digital Electronics'
+            'COSC57: Compilers'
         ]
     },
     {

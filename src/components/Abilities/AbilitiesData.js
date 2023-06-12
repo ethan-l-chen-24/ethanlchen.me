@@ -18,9 +18,14 @@ const AbilitiesData = [
                 years: "< 1"
             },
             {
+                name: 'C++',
+                score: 2,
+                years: "< 1"
+            },
+            {
                 name: 'C',
                 score: 4,
-                years: "1"
+                years: "2"
             },
             {
                 name: 'Python',
@@ -40,7 +45,7 @@ const AbilitiesData = [
             {
                 name: 'HTML5',
                 score: 3,
-                years: "< 1"
+                years: "1"
             },
             {
                 name: 'React',
@@ -50,7 +55,7 @@ const AbilitiesData = [
             {
                 name: 'Bash',
                 score: 3,
-                years: "1"
+                years: "2"
             },
             {
                 name: 'JSON',
@@ -63,8 +68,8 @@ const AbilitiesData = [
                 years: "< 1"
             },
             {
-                name: 'C++',
-                score: 2,
+                name: 'SQL',
+                score: 3,
                 years: "< 1"
             },
             {
@@ -86,7 +91,7 @@ const AbilitiesData = [
             {
                 name: 'Git/Git Flow',
                 score: 5,
-                years: "3"
+                years: "4"
             },
             {
                 name: 'Docker',
@@ -96,22 +101,22 @@ const AbilitiesData = [
             {
                 name: 'Microsoft Office',
                 score: 5,
-                years: "6"
+                years: "7"
             },
             {
                 name: 'VSCode',
                 score: 4,
-                years: "1"
+                years: "2"
             },
             {
                 name: 'IntelliJ Idea',
                 score: 4,
-                years: "3"
+                years: "4"
             },
             {
                 name: 'MatLab',
-                score: 3,
-                years: "< 1"
+                score: 4,
+                years: "2"
             },
             {
                 name: 'Sublime Text',
@@ -156,7 +161,7 @@ const AbilitiesData = [
             },
             {
                 name: 'Communication',
-                score: 4,
+                score: 5,
                 years: 'Group Project Experience'
             }
         ]
