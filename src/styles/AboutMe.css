@@ -5,8 +5,9 @@
 
 #aboutMe {
     background-color: #d8cfc4;
+    background-image: linear-gradient(to bottom,#d8cfc4, #75b2bf);
     width: 100%;
-    padding: 100px 0px 150px 0px;
+    padding: 100px 0px 100px 0px;
 }
 
 #aboutMeParagraph {

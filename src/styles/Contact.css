@@ -45,6 +45,7 @@
 
 #contactMe {
     background-color: #222629;
+    background-image: linear-gradient(to bottom, #222629, black);
     color: white;
 }
 

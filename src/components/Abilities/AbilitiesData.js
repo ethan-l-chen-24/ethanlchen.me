@@ -23,6 +23,11 @@ const AbilitiesData = [
                 years: "< 1"
             },
             {
+                name: 'C#',
+                score: 4,
+                years: "< 1"
+            },
+            {
                 name: 'C',
                 score: 4,
                 years: "2"
@@ -49,6 +54,11 @@ const AbilitiesData = [
             },
             {
                 name: 'React',
+                score: 3,
+                years: "< 1"
+            },
+            {
+                name: '.NET',
                 score: 3,
                 years: "< 1"
             },
@@ -131,11 +141,6 @@ const AbilitiesData = [
             {
                 name: 'Kubernetes',
                 score: 2,
-                years: "< 1"
-            },
-            {
-                name: 'XCode',
-                score: 1,
                 years: "< 1"
             }
         ]

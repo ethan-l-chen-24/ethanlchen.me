@@ -22,7 +22,6 @@ function App() {
   const [education, educationView] = useInView(options);
   const [projects, projectsView] = useInView(options);
   const [abilities, abilitiesView] = useInView(options);
-  const [sol, solView] = useInView(options);
   const [contactMe, contactMeView] = useInView(options);
 
   const getActive = () => {
@@ -32,8 +31,6 @@ function App() {
       return 'Education'
     } else if(projectsView) {
       return 'Projects'
-    } else if(solView) {
-      return 'Slice of Life'
     } else if(contactMeView) {
       return 'Contact Me'
     } else if(abilitiesView) {
@@ -55,7 +52,6 @@ function App() {
           aboutMe={aboutMe}
           education={education}
           projects={projects}
-          sol={sol}
           contactMe={contactMe}
           abilities={abilities}
         />

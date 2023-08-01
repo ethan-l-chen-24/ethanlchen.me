@@ -27,10 +27,6 @@ const Body = ( { aboutMe, education, projects, abilities, sol, contactMe } ) => 
                 <Abilities />
             </div>
 
-            <div ref={sol}>
-                <SliceOfLife />
-            </div>
-
             <div ref={contactMe}>
                 <Contact />
             </div>
