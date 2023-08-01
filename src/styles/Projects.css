@@ -1,15 +1,16 @@
 #projects {
+    color: white;
     background-color: #d8cfc4;
     background-image: linear-gradient(to bottom, #1c7aa6, #0c2024);
 }
 
 #projectsHR {
     height: 2px;
-    color: black;
+    color: white;
 }
 
 .projectBox {
-    color: black;
+    color: white;
     margin: 20px 5px 20px 5px;
     padding: 10px;
     height: 400px;
@@ -105,13 +106,13 @@
 }
 
 .projectTitleBox {
-    background-color: #1b9ce5;
+    background-color: #1c7aa6;
 
 }
 
 .repoLink {
     display: block;
-    background-color: #1b9ce5;
+    background-color: #1c7aa6;
     color: black;
     text-decoration: none;
     transition: all 0.5s;
