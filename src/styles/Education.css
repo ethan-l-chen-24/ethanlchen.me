@@ -46,6 +46,7 @@
 .experiencesDropdown {
     margin-top: 10px;
     text-underline-offset: 3px;
+    color: white;
 }
 
 .bottomDropdowns {
@@ -152,4 +153,5 @@ div .educationHR {
 
 .dropdownContents {
     font-size: 0.75em;
+    color: white;
 }

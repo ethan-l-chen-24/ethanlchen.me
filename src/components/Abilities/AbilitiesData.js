@@ -8,6 +8,11 @@ const AbilitiesData = [
                 years: "5"
             },
             {
+                name: 'Python',
+                score: 5,
+                years: "2"
+            },
+            {
                 name: 'Ruby',
                 score: 5,
                 years: "1"
@@ -29,11 +34,6 @@ const AbilitiesData = [
             },
             {
                 name: 'C',
-                score: 4,
-                years: "2"
-            },
-            {
-                name: 'Python',
                 score: 4,
                 years: "2"
             },
@@ -66,11 +66,6 @@ const AbilitiesData = [
                 name: 'Bash',
                 score: 3,
                 years: "2"
-            },
-            {
-                name: 'JSON',
-                score: 3,
-                years: "< 1"
             },
             {
                 name: 'CSS3',
@@ -106,7 +101,7 @@ const AbilitiesData = [
             {
                 name: 'Docker',
                 score: 5,
-                years: "< 1"
+                years: "1"
             },
             {
                 name: 'Microsoft Office',
@@ -116,10 +111,10 @@ const AbilitiesData = [
             {
                 name: 'VSCode',
                 score: 4,
-                years: "2"
+                years: "3"
             },
             {
-                name: 'IntelliJ Idea',
+                name: 'JetBrains IDEs',
                 score: 4,
                 years: "4"
             },
